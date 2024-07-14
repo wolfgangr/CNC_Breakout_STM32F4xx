@@ -1,3 +1,24 @@
+## My Plan: build a Breakout Board for Blackpills
+
+- [grbl-HAL STM32F4xx for blackpill_alt2 layout](https://github.com/grblHAL/STM32F4xx/blob/master/boards/blackpill_alt2_map.h)
+- open collector drivers for all outputs
+- screw connectors for high power stepper drivers and pins for smaller formats
+- optocouplers for inputs
+- control LED (optionally jumpered) for all in- and outputs
+- jumpers on all Blackpill connectors, so that each pin can be rerouted independently
+- 4 axes
+- options for spindle encoders, VFD driver, THC analog input...
+- wide input voltage range
+
+current projects in mind:
+- routers/mills with auto-squared Y-axis
+- lathe with spindle index for thread cutting
+- plasma cutter with auto-squared Y-axis and torch height control
+
+I selectet to fork this project because of the kicad file format.
+
+======== End of fork remarks ===========
+
 ## CNC Breakout board for Nucleo-64 based development boards using ST morpho extension header
 
 [grblHAL driver](https://github.com/grblHAL/STM32F4xx) support for [Nucleo F411RE](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) and [Nucleo F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) development boards.
