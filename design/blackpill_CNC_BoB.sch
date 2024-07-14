@@ -3504,4 +3504,15 @@ Wire Wire Line
 	3700 10850 3700 11000
 Wire Wire Line
 	1550 8800 1550 9150
+$Comp
+L myparts:blackpill_V3.1 U?
+U 1 1 669E70FA
+P 10255 3335
+F 0 "U?" H 9305 5941 50  0000 C CNN
+F 1 "blackpill_V3.1" H 9305 5850 50  0000 C CNN
+F 2 "" H 9305 4035 50  0001 C CNN
+F 3 "" H 9305 4035 50  0001 C CNN
+	1    10255 3335
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
