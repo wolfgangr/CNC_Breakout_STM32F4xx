@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Nucleo64 CNC-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -3505,14 +3504,14 @@ Wire Wire Line
 Wire Wire Line
 	1550 8800 1550 9150
 $Comp
-L myparts:blackpill_V3.1 U?
-U 1 1 669E70FA
-P 10255 3335
-F 0 "U?" H 9305 5941 50  0000 C CNN
-F 1 "blackpill_V3.1" H 9305 5850 50  0000 C CNN
-F 2 "" H 9305 4035 50  0001 C CNN
-F 3 "" H 9305 4035 50  0001 C CNN
-	1    10255 3335
+L YAAJ_WeAct_BlackPill_Part_Like:YAAJ_WeAct_BlackPill_Part_Like U?
+U 1 1 66A2E5C5
+P 9085 3740
+F 0 "U?" H 9085 4905 50  0000 C CNN
+F 1 "YAAJ_WeAct_BlackPill_Part_Like" H 9085 4814 50  0000 C CNN
+F 2 "Kicad-STM32:YAAJ_WeAct_BlackPill2" H 9095 2560 50  0001 C CNN
+F 3 "" H 9785 2740 50  0001 C CNN
+	1    9085 3740
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

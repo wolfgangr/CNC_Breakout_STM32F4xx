@@ -1,6 +1,9 @@
 (sym_lib_table
   (lib (name Nucleo64_CNC-cache)(type Legacy)(uri "/home/cleo-home/wrosner/daten/hardtec/CNC/gcode-tools/grbl/Bluepill-breakout/CNC_Breakout_STM32F4xx/design/Nucleo64 CNC-cache.lib")(options "")(descr ""))
-  (lib (name SnapEDA-Library)(type Legacy)(uri ${KIPRJMOD}/parts/SnapEDA/SnapEDA-Library.lib)(options "")(descr ""))
+  (lib (name SnapEDA-Library)(type Legacy)(uri ${KIPRJMOD}/parts/SnapEDA/SnapEDA-Library.lib)(options "")(descr "")(disabled))
   (lib (name Nucleo64-CNC-rescue)(type Legacy)(uri "${KIPRJMOD}/Nucleo64 CNC-rescue.lib")(options "")(descr ""))
-  (lib (name myparts)(type Legacy)(uri /home/cleo-home/wrosner/daten/hardtec/CNC/gcode-tools/grbl/Bluepill-breakout/CNC_Breakout_STM32F4xx/design/parts/myparts.lib)(options "")(descr ""))
+  (lib (name myparts)(type Legacy)(uri /home/cleo-home/wrosner/daten/hardtec/CNC/gcode-tools/grbl/Bluepill-breakout/CNC_Breakout_STM32F4xx/design/parts/myparts.lib)(options "")(descr "")(disabled))
+  (lib (name YAAJ_BlackPill)(type Legacy)(uri ${KIPRJMOD}/parts/Kicad-STM32-master/Symbols/YAAJ_BlackPill.lib)(options "")(descr "")(disabled))
+  (lib (name YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout)(type Legacy)(uri ${KIPRJMOD}/parts/Kicad-STM32-master/Symbols/YAAJ_WeAct_BlackPill_Part_Like_SWD_Breakout.lib)(options "")(descr "")(disabled))
+  (lib (name YAAJ_WeAct_BlackPill_Part_Like)(type Legacy)(uri ${KIPRJMOD}/parts/Kicad-STM32-master/Symbols/YAAJ_WeAct_BlackPill_Part_Like.lib)(options "")(descr ""))
 )
