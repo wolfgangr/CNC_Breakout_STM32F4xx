@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "SnapEDA Footprints")(type KiCad)(uri ${KIPRJMOD}/parts/SnapEDA/Footprints.pretty)(options "")(descr ""))
+)
