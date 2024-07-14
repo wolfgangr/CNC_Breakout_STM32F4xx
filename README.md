@@ -9,6 +9,7 @@
 - 4 axes
 - options for spindle encoders, VFD driver, THC analog input...
 - wide input voltage range
+- manufactured by JCBPCB or similiar
 
 current projects in mind:
 - routers/mills with auto-squared Y-axis
