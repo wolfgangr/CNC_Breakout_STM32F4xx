@@ -1,4 +1,6 @@
-parts/
-!/Kicad-STM32-master/
+!parts/
+parts/*
+!parts/Kicad-STM32-master/
+!parts/Kicad-STM32-master/.gitignore
 blackpill_CNC_BoB.bak
 
