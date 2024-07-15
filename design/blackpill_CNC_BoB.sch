@@ -742,55 +742,6 @@ Text Label 5640 1580 2    50   ~ 0
 ALim
 Text Label 5640 2180 2    50   ~ 0
 AuxIn0
-$Comp
-L Connector_Generic:Conn_01x06 J21
-U 1 1 600FDEBD
-P 8270 9940
-F 0 "J21" H 8370 9540 50  0000 R CNN
-F 1 "SDCARD/GPIO" V 8370 10140 50  0000 R CNN
-F 2 "" H 8270 9940 50  0001 C CNN
-F 3 "~" H 8270 9940 50  0001 C CNN
-	1    8270 9940
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0145
-U 1 1 600FE885
-P 8020 10190
-F 0 "#PWR0145" H 8020 9940 50  0001 C CNN
-F 1 "GND" H 8020 10040 50  0000 C CNN
-F 2 "" H 8020 10190 50  0001 C CNN
-F 3 "" H 8020 10190 50  0001 C CNN
-	1    8020 10190
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR0146
-U 1 1 600FEDA8
-P 8020 9590
-F 0 "#PWR0146" H 8020 9440 50  0001 C CNN
-F 1 "+3.3V" H 8035 9763 50  0000 C CNN
-F 2 "" H 8020 9590 50  0001 C CNN
-F 3 "" H 8020 9590 50  0001 C CNN
-	1    8020 9590
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8070 10140 8020 10140
-Wire Wire Line
-	8020 10140 8020 10190
-Wire Wire Line
-	8020 9590 8020 9640
-Wire Wire Line
-	8020 9640 8070 9640
-Text Label 8070 9740 2    50   ~ 0
-SDCS
-Text Label 8070 10040 2    50   ~ 0
-SDO
-Text Label 8070 9840 2    50   ~ 0
-SDI
-Text Label 8070 9940 2    50   ~ 0
-SCK
 Wire Wire Line
 	900  1150 900  1300
 Wire Wire Line
@@ -3938,4 +3889,32 @@ Wire Wire Line
 Connection ~ 12650 7100
 Wire Wire Line
 	12650 7100 13100 7100
+$Comp
+L Connector_Generic:Conn_01x04 J?
+U 1 1 6FAE831B
+P 9600 1200
+F 0 "J?" H 9550 750 50  0000 C CNN
+F 1 "I2C" H 9550 850 50  0000 C CNN
+F 2 "" H 9600 1200 50  0001 C CNN
+F 3 "~" H 9600 1200 50  0001 C CNN
+	1    9600 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6FB200F3
+P 9400 1300
+F 0 "#PWR?" H 9400 1050 50  0001 C CNN
+F 1 "GND" H 9450 1100 50  0000 C CNN
+F 2 "" H 9400 1300 50  0001 C CNN
+F 3 "" H 9400 1300 50  0001 C CNN
+	1    9400 1300
+	1    0    0    -1  
+$EndComp
+Text Label 9400 1100 2    50   ~ 0
+SCL
+Text Label 9400 1000 2    50   ~ 0
+SDA
+Text Label 9400 1200 2    50   ~ 0
+~Strobe
 $EndSCHEMATC
