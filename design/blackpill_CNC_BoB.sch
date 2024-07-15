@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 "Licensed under CERN OHL v.1.2 or later"
 $EndDescr
-Text Label 4430 -1680 2    50   ~ 0
+Text Label 8430 2980 0    50   ~ 0
 ZStep
-Text Label 4430 -1980 2    50   ~ 0
+Text Label 8430 2780 0    50   ~ 0
 AStep
 Text Label 6630 -4180 0    50   ~ 0
 XDir
@@ -25,9 +25,9 @@ Text Label 6630 -2980 0    50   ~ 0
 ADir
 Text Label 6630 -4080 0    50   ~ 0
 XEnable
-Text Label 4430 -1580 2    50   ~ 0
+Text Label 5640 2380 2    50   ~ 0
 ZLim
-Text Label 4430 -1380 2    50   ~ 0
+Text Label 5640 2280 2    50   ~ 0
 YLim
 Text Label 6630 -3380 0    50   ~ 0
 SpindlePWM
@@ -35,11 +35,11 @@ Text Label 6630 -1980 0    50   ~ 0
 SpindleDir
 Text Label 6630 -2180 0    50   ~ 0
 SpindleEna
-Text Label 4430 -2180 2    50   ~ 0
+Text Label 5640 3480 2    50   ~ 0
 CycleStart
 Text Label 6630 -1480 0    50   ~ 0
 Flood
-Text Label 4430 -1880 2    50   ~ 0
+Text Label 5640 3380 2    50   ~ 0
 Probe
 Text Label 6630 -2080 0    50   ~ 0
 Mist
@@ -1719,11 +1719,11 @@ F 3 "" H 5230 -4680 50  0001 C CNN
 	1    5230 -4680
 	1    0    0    -1  
 $EndComp
-Text Label 4430 -2280 2    50   ~ 0
+Text Label 5640 3580 2    50   ~ 0
 FeedHold
-Text Label 4430 -2480 2    50   ~ 0
+Text Label 8430 3480 0    50   ~ 0
 Door
-Text Label 4430 -2380 2    50   ~ 0
+Text Label 8430 3580 0    50   ~ 0
 Reset
 Text Label 6630 -1880 0    50   ~ 0
 AEnable
@@ -1731,9 +1731,9 @@ Text Label 6630 -2380 0    50   ~ 0
 ZEnable
 Text Label 6630 -1280 0    50   ~ 0
 AuxIn2
-Text Label 4430 -2580 2    50   ~ 0
+Text Label 8430 3380 0    50   ~ 0
 XStep
-Text Label 4430 -2080 2    50   ~ 0
+Text Label 8430 3180 0    50   ~ 0
 YStep
 Text Label 6630 -3780 0    50   ~ 0
 YDir
@@ -2198,12 +2198,12 @@ Wire Wire Line
 	5750 9300 5750 9650
 Text Label 6630 -1380 0    50   ~ 0
 YEnable
-NoConn ~ 4430 -1180
-NoConn ~ 4430 -1080
+NoConn ~ 4400 1540
+NoConn ~ 4400 1640
 NoConn ~ 4430 -3080
-Text Label 4430 -1280 2    50   ~ 0
+Text Label 5640 2180 2    50   ~ 0
 XLim
-Text Label 4430 -1480 2    50   ~ 0
+Text Label 5640 2480 2    50   ~ 0
 ALim
 Text Label 9150 10750 0    50   ~ 0
 ~Strobe
@@ -2235,7 +2235,7 @@ F 3 "" H 7850 9200 50  0001 C CNN
 $EndComp
 Text Label 6630 -1180 0    50   ~ 0
 AuxIn0
-Text Label 4430 -1780 2    50   ~ 0
+Text Label 3530 -1550 2    50   ~ 0
 SDCS
 $Comp
 L Connector_Generic:Conn_01x06 J21
@@ -4029,7 +4029,7 @@ L power:+3V3 #PWR?
 U 1 1 68439088
 P 6240 4080
 F 0 "#PWR?" H 6240 3930 50  0001 C CNN
-F 1 "+3V3" V 6270 4230 50  0000 L CNN
+F 1 "+3V3" V 6270 4230 50  0001 L CNN
 F 2 "" H 6240 4080 50  0001 C CNN
 F 3 "" H 6240 4080 50  0001 C CNN
 	1    6240 4080
@@ -4040,7 +4040,7 @@ L power:+5V #PWR?
 U 1 1 6843DDDB
 P 6240 3880
 F 0 "#PWR?" H 6240 3730 50  0001 C CNN
-F 1 "+5V" V 6260 4050 50  0000 L CNN
+F 1 "+5V" V 6260 4050 50  0001 L CNN
 F 2 "" H 6240 3880 50  0001 C CNN
 F 3 "" H 6240 3880 50  0001 C CNN
 	1    6240 3880
@@ -4051,7 +4051,7 @@ L power:GND #PWR?
 U 1 1 6843E09C
 P 6240 3980
 F 0 "#PWR?" H 6240 3730 50  0001 C CNN
-F 1 "GND" V 6220 3830 50  0000 R CNN
+F 1 "GND" V 6220 3830 50  0001 R CNN
 F 2 "" H 6240 3980 50  0001 C CNN
 F 3 "" H 6240 3980 50  0001 C CNN
 	1    6240 3980
@@ -4062,7 +4062,7 @@ L power:GND #PWR?
 U 1 1 6860C9C6
 P 7840 2280
 F 0 "#PWR?" H 7840 2030 50  0001 C CNN
-F 1 "GND" V 7880 2130 50  0000 R CNN
+F 1 "GND" V 7840 2150 50  0001 R CNN
 F 2 "" H 7840 2280 50  0001 C CNN
 F 3 "" H 7840 2280 50  0001 C CNN
 	1    7840 2280
@@ -4073,7 +4073,7 @@ L power:+3V3 #PWR?
 U 1 1 6860CBE1
 P 7840 2180
 F 0 "#PWR?" H 7840 2030 50  0001 C CNN
-F 1 "+3V3" V 7840 2350 50  0000 L CNN
+F 1 "+3V3" V 7840 2300 50  0001 L CNN
 F 2 "" H 7840 2180 50  0001 C CNN
 F 3 "" H 7840 2180 50  0001 C CNN
 	1    7840 2180
@@ -4084,10 +4084,12 @@ L power:+5V #PWR?
 U 1 1 6860CDFC
 P 7840 2380
 F 0 "#PWR?" H 7840 2230 50  0001 C CNN
-F 1 "+5V" V 7850 2520 50  0000 L CNN
+F 1 "+5V" V 7830 2520 50  0001 L CNN
 F 2 "" H 7840 2380 50  0001 C CNN
 F 3 "" H 7840 2380 50  0001 C CNN
 	1    7840 2380
 	0    1    1    0   
 $EndComp
+NoConn ~ 8430 4080
+NoConn ~ 8430 3680
 $EndSCHEMATC
