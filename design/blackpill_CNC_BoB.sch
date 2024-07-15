@@ -2980,8 +2980,6 @@ F 3 "~" H 14800 6700 50  0001 C CNN
 	1    14800 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 6700 14600 6700
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 6CC26D44
@@ -2993,8 +2991,6 @@ F 3 "~" H 14800 6600 50  0001 C CNN
 	1    14800 6600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 6600 14650 6600
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 6CC26D52
@@ -3028,8 +3024,6 @@ F 3 "~" H 14800 7000 50  0001 C CNN
 	1    14800 7000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 7000 14500 7000
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 6CC26D7C
@@ -3041,8 +3035,6 @@ F 3 "~" H 14800 7100 50  0001 C CNN
 	1    14800 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 7100 14450 7100
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 6CCBAF32
@@ -3054,8 +3046,6 @@ F 3 "~" H 14800 7200 50  0001 C CNN
 	1    14800 7200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14250 7200 14700 7200
 $Comp
 L Nucleo64-CNC-rescue:Vdrive-power #PWR?
 U 1 1 6CDC2DB1
@@ -3584,26 +3574,6 @@ Wire Wire Line
 	15000 7900 15000 8100
 Wire Wire Line
 	15100 8000 14650 8000
-Wire Wire Line
-	14650 8000 14650 6600
-Connection ~ 14650 6600
-Wire Wire Line
-	14650 6600 14700 6600
-Wire Wire Line
-	14600 6700 14600 8200
-Wire Wire Line
-	14600 8200 15100 8200
-Connection ~ 14600 6700
-Wire Wire Line
-	14600 6700 14700 6700
-Wire Wire Line
-	14500 7000 14500 8700
-Wire Wire Line
-	14500 8700 15100 8700
-Wire Wire Line
-	14450 7100 14450 8900
-Wire Wire Line
-	14450 8900 15100 8900
 $Comp
 L Device:R R?
 U 1 1 6E2835ED
@@ -3707,20 +3677,6 @@ Wire Wire Line
 	13700 8000 13700 8200
 Connection ~ 13700 8200
 Wire Wire Line
-	12450 6600 13050 6600
-Wire Wire Line
-	12450 6700 13000 6700
-Wire Wire Line
-	12450 6800 12850 6800
-Wire Wire Line
-	12450 6900 12800 6900
-Wire Wire Line
-	12450 7000 12700 7000
-Wire Wire Line
-	12450 7100 12650 7100
-Wire Wire Line
-	12450 7200 12950 7200
-Wire Wire Line
 	12450 7300 13100 7300
 $Comp
 L Device:R R?
@@ -3801,16 +3757,6 @@ F 3 "~" H 13550 8400 50  0001 C CNN
 	1    13550 8400
 	-1   0    0    1   
 $EndComp
-Connection ~ 14450 7100
-Wire Wire Line
-	14450 7100 14700 7100
-Connection ~ 14500 7000
-Wire Wire Line
-	14500 7000 14700 7000
-Wire Wire Line
-	14250 6800 14700 6800
-Wire Wire Line
-	14250 6900 14700 6900
 Wire Wire Line
 	15000 8100 15000 8600
 Connection ~ 15000 8100
@@ -3823,50 +3769,6 @@ Connection ~ 13700 8700
 Wire Wire Line
 	13700 8900 13700 9250
 Connection ~ 13700 8900
-Wire Wire Line
-	13100 8000 13050 8000
-Wire Wire Line
-	13050 8000 13050 6600
-Wire Wire Line
-	13050 6600 13100 6600
-Wire Wire Line
-	13000 6700 13000 8200
-Wire Wire Line
-	13000 8200 13100 8200
-Wire Wire Line
-	13000 6700 13100 6700
-Wire Wire Line
-	12950 7200 12950 8400
-Wire Wire Line
-	12950 8400 13100 8400
-Wire Wire Line
-	12950 7200 13100 7200
-Wire Wire Line
-	13100 8700 12850 8700
-Wire Wire Line
-	12850 8700 12850 6800
-Wire Wire Line
-	12850 6800 13100 6800
-Wire Wire Line
-	12800 6900 12800 8900
-Wire Wire Line
-	12800 8900 13100 8900
-Connection ~ 12800 6900
-Wire Wire Line
-	12800 6900 13100 6900
-Wire Wire Line
-	12700 7000 12700 9250
-Wire Wire Line
-	12700 9250 13100 9250
-Connection ~ 12700 7000
-Wire Wire Line
-	12700 7000 13100 7000
-Wire Wire Line
-	12650 9450 13100 9450
-Connection ~ 12850 6800
-Connection ~ 12950 7200
-Connection ~ 13000 6700
-Connection ~ 13050 6600
 Wire Wire Line
 	11450 7600 11450 7750
 Wire Wire Line
@@ -3884,11 +3786,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74HCT541" H 11950 7100 50  0001 C CNN
 	1    11950 7100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12650 7100 12650 9450
-Connection ~ 12650 7100
-Wire Wire Line
-	12650 7100 13100 7100
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 6FAE831B
@@ -3917,4 +3814,115 @@ Text Label 9400 1000 2    50   ~ 0
 SDA
 Text Label 9400 1200 2    50   ~ 0
 ~Strobe
+Text Label 14650 8000 0    50   ~ 0
+SPenV
+Text Label 14650 8200 0    50   ~ 0
+SPdirV
+Text Label 12500 6600 0    50   ~ 0
+SPenO
+Text Label 12500 6700 0    50   ~ 0
+SPdirO
+Text Label 13100 8400 2    50   ~ 0
+SPpwmO
+Text Label 14800 8700 2    50   ~ 0
+MistV
+Text Label 14850 8900 2    50   ~ 0
+FloodV
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 6FBF74D8
+P 15300 9250
+F 0 "J?" H 15400 9250 50  0000 L CNN
+F 1 "AuxOut" H 15400 9150 50  0000 L CNN
+F 2 "" H 15300 9250 50  0001 C CNN
+F 3 "~" H 15300 9250 50  0001 C CNN
+	1    15300 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14250 7200 14700 7200
+Wire Wire Line
+	15100 9350 15000 9350
+Wire Wire Line
+	15000 9350 15000 9150
+Connection ~ 15000 8800
+Wire Wire Line
+	15100 9150 15000 9150
+Connection ~ 15000 9150
+Wire Wire Line
+	15000 9150 15000 8800
+Text Label 14850 9250 2    50   ~ 0
+AuxO0V
+Text Label 14850 9450 2    50   ~ 0
+AuxO1V
+Text Label 13100 8700 2    50   ~ 0
+MistL
+Text Label 13100 8900 2    50   ~ 0
+FloodL
+Text Label 13100 9250 2    50   ~ 0
+AuxO0L
+Text Label 13100 9450 2    50   ~ 0
+AuxO1L
+Wire Wire Line
+	12450 6600 13100 6600
+Wire Wire Line
+	12450 6700 13100 6700
+Wire Wire Line
+	12450 7200 13100 7200
+Wire Wire Line
+	12450 6800 13100 6800
+Wire Wire Line
+	12450 6900 13100 6900
+Wire Wire Line
+	12450 7000 13100 7000
+Wire Wire Line
+	12450 7100 13100 7100
+Text Label 12800 7200 2    50   ~ 0
+SPpwmO
+Text Label 13100 8000 2    50   ~ 0
+SPenO
+Text Label 13100 8200 2    50   ~ 0
+SPdirO
+Text Label 12850 6800 2    50   ~ 0
+MistL
+Text Label 12850 6900 2    50   ~ 0
+FloodL
+Text Label 13000 7000 2    50   ~ 0
+AuxO0L
+Text Label 13000 7100 2    50   ~ 0
+AuxO1L
+Wire Wire Line
+	14250 6600 14700 6600
+Wire Wire Line
+	14250 6700 14700 6700
+Wire Wire Line
+	14250 6800 14700 6800
+Wire Wire Line
+	14250 6900 14700 6900
+Wire Wire Line
+	14250 7100 14700 7100
+Wire Wire Line
+	14250 7000 14700 7000
+Text Label 14350 6600 0    50   ~ 0
+SPenV
+Text Label 14350 6700 0    50   ~ 0
+SPdirV
+Text Label 14500 6800 2    50   ~ 0
+MistV
+Text Label 14550 6900 2    50   ~ 0
+FloodV
+Text Label 14650 7000 2    50   ~ 0
+AuxO0V
+Text Label 14650 7100 2    50   ~ 0
+AuxO1V
+Wire Wire Line
+	14650 8200 15100 8200
+Wire Wire Line
+	14800 8700 15100 8700
+Wire Wire Line
+	14850 8900 15100 8900
+Wire Wire Line
+	14850 9250 15100 9250
+Wire Wire Line
+	14850 9450 15100 9450
 $EndSCHEMATC
