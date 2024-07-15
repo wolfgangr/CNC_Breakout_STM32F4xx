@@ -17,39 +17,37 @@ Text Label 8430 2980 0    50   ~ 0
 ZStep
 Text Label 8430 2780 0    50   ~ 0
 AStep
-Text Label 6630 -4180 0    50   ~ 0
+Text Label 8430 3280 0    50   ~ 0
 XDir
-Text Label 6630 -3080 0    50   ~ 0
+Text Label 8430 2880 0    50   ~ 0
 ZDir
-Text Label 6630 -2980 0    50   ~ 0
+Text Label 8430 2680 0    50   ~ 0
 ADir
-Text Label 6630 -4080 0    50   ~ 0
+Text Label 8910 3980 0    50   ~ 0
 XEnable
 Text Label 5640 2380 2    50   ~ 0
 ZLim
 Text Label 5640 2280 2    50   ~ 0
 YLim
-Text Label 6630 -3380 0    50   ~ 0
-SpindlePWM
-Text Label 6630 -1980 0    50   ~ 0
+Text Label 8430 2480 0    50   ~ 0
 SpindleDir
-Text Label 6630 -2180 0    50   ~ 0
+Text Label 8430 2580 0    50   ~ 0
 SpindleEna
 Text Label 5640 3480 2    50   ~ 0
 CycleStart
-Text Label 6630 -1480 0    50   ~ 0
+Text Label 8430 3780 0    50   ~ 0
 Flood
 Text Label 5640 3380 2    50   ~ 0
 Probe
-Text Label 6630 -2080 0    50   ~ 0
+Text Label 8430 3880 0    50   ~ 0
 Mist
-Text Label 6630 -3280 0    50   ~ 0
+Text Label 4700 2800 0    50   ~ 0
 UARTTX
-Text Label 6630 -3180 0    50   ~ 0
+Text Label 4700 2700 0    50   ~ 0
 UARTRX
-Text Label 6630 -1580 0    50   ~ 0
+Text Label 5150 3950 2    50   ~ 0
 SDA
-Text Label 6630 -1680 0    50   ~ 0
+Text Label 5150 3800 2    50   ~ 0
 SCL
 $Comp
 L Connector_Generic:Conn_01x04 J2
@@ -1302,7 +1300,7 @@ F 3 "~" H 10800 2100 50  0001 C CNN
 	1    10800 2100
 	1    0    0    1   
 $EndComp
-Text Label 6630 -1780 0    50   ~ 0
+Text Label 7190 1370 0    50   ~ 0
 CST
 Text Label 10300 2200 2    50   ~ 0
 CST
@@ -1704,9 +1702,9 @@ Wire Wire Line
 	13650 7750 13850 7750
 Wire Wire Line
 	13750 7850 13850 7850
-Text Label 6630 -1080 0    50   ~ 0
+Text Label 5150 3700 2    50   ~ 0
 AuxOut0
-Text Label 6630 -2280 0    50   ~ 0
+Text Label 5150 4050 2    50   ~ 0
 AuxOut1
 $Comp
 L power:+3.3V #PWR0137
@@ -1721,21 +1719,21 @@ F 3 "" H 5230 -4680 50  0001 C CNN
 $EndComp
 Text Label 5640 3580 2    50   ~ 0
 FeedHold
-Text Label 8430 3480 0    50   ~ 0
+Text Label 9030 3480 0    50   ~ 0
 Door
 Text Label 8430 3580 0    50   ~ 0
 Reset
-Text Label 6630 -1880 0    50   ~ 0
+Text Label 8910 4280 0    50   ~ 0
 AEnable
-Text Label 6630 -2380 0    50   ~ 0
+Text Label 8910 4180 0    50   ~ 0
 ZEnable
-Text Label 6630 -1280 0    50   ~ 0
+Text Label 5640 3280 2    50   ~ 0
 AuxIn2
 Text Label 8430 3380 0    50   ~ 0
 XStep
 Text Label 8430 3180 0    50   ~ 0
 YStep
-Text Label 6630 -3780 0    50   ~ 0
+Text Label 8430 3080 0    50   ~ 0
 YDir
 $Comp
 L power:VDDF #PWR0139
@@ -1822,7 +1820,7 @@ Wire Wire Line
 	6700 10350 6700 10750
 Wire Wire Line
 	5850 10450 5850 10750
-Text Label 6630 -2480 0    50   ~ 0
+Text Label 9030 3380 0    50   ~ 0
 ~Strobe
 $Comp
 L power:GND #PWR0140
@@ -1853,13 +1851,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J23
 U 1 1 60AA5721
-P 4180 -3980
-F 0 "J23" H 4230 -4180 50  0000 R CNN
-F 1 "Reset" V 4280 -3930 50  0000 R CNN
-F 2 "" H 4180 -3980 50  0001 C CNN
-F 3 "~" H 4180 -3980 50  0001 C CNN
-	1    4180 -3980
-	-1   0    0    1   
+P 9600 3780
+F 0 "J23" H 9650 3580 50  0000 R CNN
+F 1 "Reset" V 9700 3830 50  0000 R CNN
+F 2 "" H 9600 3780 50  0001 C CNN
+F 3 "~" H 9600 3780 50  0001 C CNN
+	1    9600 3780
+	1    0    0    1   
 $EndComp
 $Comp
 L Nucleo64-CNC-rescue:SilentStepStick_Breakout_TMC2130-IoEngineering A2
@@ -2196,7 +2194,7 @@ Wire Wire Line
 	6850 9300 6850 10050
 Wire Wire Line
 	5750 9300 5750 9650
-Text Label 6630 -1380 0    50   ~ 0
+Text Label 8910 4080 0    50   ~ 0
 YEnable
 NoConn ~ 4400 1540
 NoConn ~ 4400 1640
@@ -2233,7 +2231,7 @@ F 3 "" H 7850 9200 50  0001 C CNN
 	1    7850 9200
 	1    0    0    -1  
 $EndComp
-Text Label 6630 -1180 0    50   ~ 0
+Text Label 5640 3080 2    50   ~ 0
 AuxIn0
 Text Label 3530 -1550 2    50   ~ 0
 SDCS
@@ -2286,11 +2284,11 @@ Text Label 15400 9400 2    50   ~ 0
 SDI
 Text Label 15400 9500 2    50   ~ 0
 SCK
-Text Label 6630 -3680 0    50   ~ 0
+Text Label 6770 1390 0    50   ~ 0
 SCK
-Text Label 6630 -3480 0    50   ~ 0
+Text Label 6770 1590 0    50   ~ 0
 SDI
-Text Label 6630 -3580 0    50   ~ 0
+Text Label 6770 1490 0    50   ~ 0
 SDO
 Wire Wire Line
 	12500 5700 12750 5700
@@ -2565,7 +2563,7 @@ F 3 "" H 5400 7500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6050 7300 6050 7400
-Text Label 6630 -2680 0    50   ~ 0
+Text Label 5640 3180 2    50   ~ 0
 AuxIn1
 Wire Wire Line
 	1550 8700 1550 8500
@@ -2869,35 +2867,25 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x03 J25
 U 1 1 5FAF9624
-P 7480 -3780
-F 0 "J25" H 7530 -3980 50  0000 R CNN
-F 1 "UART1" V 7580 -3680 50  0000 R CNN
-F 2 "" H 7480 -3780 50  0001 C CNN
-F 3 "~" H 7480 -3780 50  0001 C CNN
-	1    7480 -3780
-	1    0    0    1   
+P 4500 2800
+F 0 "J25" H 4550 2600 50  0000 R CNN
+F 1 "UART1" V 4600 2900 50  0000 R CNN
+F 2 "" H 4500 2800 50  0001 C CNN
+F 3 "~" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0154
 U 1 1 5FAFB658
-P 7280 -3580
-F 0 "#PWR0154" H 7280 -3830 50  0001 C CNN
-F 1 "GND" H 7285 -3753 50  0000 C CNN
-F 2 "" H 7280 -3580 50  0001 C CNN
-F 3 "" H 7280 -3580 50  0001 C CNN
-	1    7280 -3580
-	1    0    0    -1  
+P 4700 3000
+F 0 "#PWR0154" H 4700 2750 50  0001 C CNN
+F 1 "GND" H 4705 2827 50  0000 C CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7280 -3680 7280 -3580
-Wire Wire Line
-	7280 -3780 7180 -3780
-Wire Wire Line
-	7180 -3780 7180 -3980
-Wire Wire Line
-	6630 -3880 7280 -3880
-Wire Wire Line
-	6630 -3980 7180 -3980
 $Comp
 L power:+5V #PWR0142
 U 1 1 5FDEE4AA
@@ -4091,5 +4079,181 @@ F 3 "" H 7840 2380 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 8430 4080
-NoConn ~ 8430 3680
+$Comp
+L power:GND #PWR?
+U 1 1 68D14464
+P 9400 3880
+F 0 "#PWR?" H 9400 3630 50  0001 C CNN
+F 1 "GND" H 9405 3707 50  0000 C CNN
+F 2 "" H 9400 3880 50  0001 C CNN
+F 3 "" H 9400 3880 50  0001 C CNN
+	1    9400 3880
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 3780 9400 3880
+Wire Wire Line
+	4700 3000 4700 2900
+Wire Wire Line
+	5490 2800 5490 2680
+Wire Wire Line
+	5490 2680 5640 2680
+Wire Wire Line
+	4700 2800 5490 2800
+Wire Wire Line
+	5640 2780 5640 2740
+Wire Wire Line
+	5640 2740 5440 2740
+Wire Wire Line
+	5440 2740 5440 2700
+Wire Wire Line
+	4700 2700 5440 2700
+NoConn ~ 5640 2880
+NoConn ~ 5640 2980
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 694B59C1
+P 8810 3980
+F 0 "JP?" H 8810 4130 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8810 4130 50  0001 C CNN
+F 2 "" H 8810 3980 50  0001 C CNN
+F 3 "~" H 8810 3980 50  0001 C CNN
+	1    8810 3980
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 694B5BE2
+P 8810 4080
+F 0 "JP?" H 8810 4230 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8810 4230 50  0001 C CNN
+F 2 "" H 8810 4080 50  0001 C CNN
+F 3 "~" H 8810 4080 50  0001 C CNN
+	1    8810 4080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 694B5E04
+P 8810 4180
+F 0 "JP?" H 8810 4330 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8810 4330 50  0001 C CNN
+F 2 "" H 8810 4180 50  0001 C CNN
+F 3 "~" H 8810 4180 50  0001 C CNN
+	1    8810 4180
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 694B602B
+P 8810 4280
+F 0 "JP?" H 8810 4430 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8810 4430 50  0001 C CNN
+F 2 "" H 8810 4280 50  0001 C CNN
+F 3 "~" H 8810 4280 50  0001 C CNN
+	1    8810 4280
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8430 3980 8710 3980
+Wire Wire Line
+	8710 4080 8710 3980
+Connection ~ 8710 3980
+Wire Wire Line
+	8710 4180 8710 4280
+Connection ~ 8710 4080
+Connection ~ 8710 4180
+Wire Wire Line
+	8710 4080 8710 4180
+Text Label 5640 2580 2    50   ~ 0
+SpindlePWM
+Wire Wire Line
+	8430 3680 9400 3680
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 697D6996
+P 8930 3380
+F 0 "JP?" H 8955 3530 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8930 3505 50  0001 C CNN
+F 2 "" H 8930 3380 50  0001 C CNN
+F 3 "~" H 8930 3380 50  0001 C CNN
+	1    8930 3380
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 697D6BD3
+P 8930 3480
+F 0 "JP?" H 8955 3630 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 8955 3605 50  0001 C CNN
+F 2 "" H 8930 3480 50  0001 C CNN
+F 3 "~" H 8930 3480 50  0001 C CNN
+	1    8930 3480
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8830 3380 8830 3480
+Wire Wire Line
+	8430 3480 8830 3480
+Connection ~ 8830 3480
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 69A7DC7D
+P 5250 3700
+F 0 "JP?" H 5290 3850 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5270 3830 50  0001 C CNN
+F 2 "" H 5250 3700 50  0001 C CNN
+F 3 "~" H 5250 3700 50  0001 C CNN
+	1    5250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 69A7DDF9
+P 5250 3800
+F 0 "JP?" H 5290 3950 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5270 3930 50  0001 C CNN
+F 2 "" H 5250 3800 50  0001 C CNN
+F 3 "~" H 5250 3800 50  0001 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 69B33E8D
+P 5250 4050
+F 0 "JP?" H 5290 4200 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5270 4180 50  0001 C CNN
+F 2 "" H 5250 4050 50  0001 C CNN
+F 3 "~" H 5250 4050 50  0001 C CNN
+	1    5250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Small JP?
+U 1 1 69B34161
+P 5250 3950
+F 0 "JP?" H 5290 4100 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5270 4080 50  0001 C CNN
+F 2 "" H 5250 3950 50  0001 C CNN
+F 3 "~" H 5250 3950 50  0001 C CNN
+	1    5250 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3800 5350 3700
+Wire Wire Line
+	5350 3950 5350 4050
+Wire Wire Line
+	5640 3680 5350 3680
+Wire Wire Line
+	5350 3680 5350 3700
+Connection ~ 5350 3700
+Wire Wire Line
+	5350 3950 5580 3950
+Wire Wire Line
+	5580 3950 5580 3780
+Connection ~ 5350 3950
+Wire Wire Line
+	5640 3780 5580 3780
 $EndSCHEMATC
