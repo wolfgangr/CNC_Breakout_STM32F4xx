@@ -3242,9 +3242,9 @@ Wire Wire Line
 	3450 6150 2750 6150
 Text Label 4000 6150 0    50   ~ 0
 Reset
-Text Label 2880 -1530 0    50   ~ 0
+Text Label 4000 4450 0    50   ~ 0
 CycleStart
-Text Label 2880 -980 0    50   ~ 0
+Text Label 4000 5000 0    50   ~ 0
 FeedHold
 Text Label 4000 5550 0    50   ~ 0
 Door
@@ -3735,12 +3735,12 @@ Wire Wire Line
 	7840 3980 8230 3980
 Wire Wire Line
 	7840 4080 8230 4080
-Text Label 5900 1920 0    50   ~ 0
-xlim
-Text Label 6110 1940 0    50   ~ 0
-ylim
-Text Label 5660 1950 0    50   ~ 0
-zlim
+Text Label 5940 2180 0    50   ~ 0
+Xlim
+Text Label 5930 2280 0    50   ~ 0
+Ylim
+Text Label 5930 2380 0    50   ~ 0
+Zlim
 Text Label 7850 3980 0    50   ~ 0
 step_en
 Text Label 7840 3780 0    50   ~ 0
@@ -3752,7 +3752,7 @@ grbl_reset
 Text Label 7840 3680 0    50   ~ 0
 sys_reset
 Text Label 7840 3480 0    50   ~ 0
-door_i2cS
+door_i2c_srtrb
 Text Label 7840 3380 0    50   ~ 0
 Xstep
 Text Label 7850 3280 0    50   ~ 0
@@ -3929,39 +3929,6 @@ F 3 "~" H 5740 3780 50  0001 C CNN
 	1    5740 3780
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NC_Small JP?
-U 1 1 67C1D40C
-P 5740 3880
-F 0 "JP?" H 5740 4030 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5740 4030 50  0001 C CNN
-F 2 "" H 5740 3880 50  0001 C CNN
-F 3 "~" H 5740 3880 50  0001 C CNN
-	1    5740 3880
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NC_Small JP?
-U 1 1 67C1D626
-P 5740 3980
-F 0 "JP?" H 5740 4130 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5740 4130 50  0001 C CNN
-F 2 "" H 5740 3980 50  0001 C CNN
-F 3 "~" H 5740 3980 50  0001 C CNN
-	1    5740 3980
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper_NC_Small JP?
-U 1 1 67C1D845
-P 5740 4080
-F 0 "JP?" H 5740 4230 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5740 4230 50  0001 C CNN
-F 2 "" H 5740 4080 50  0001 C CNN
-F 3 "~" H 5740 4080 50  0001 C CNN
-	1    5740 4080
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5840 2680 6240 2680
 Wire Wire Line
@@ -3986,12 +3953,6 @@ Wire Wire Line
 	5840 3680 6240 3680
 Wire Wire Line
 	5840 3780 6240 3780
-Wire Wire Line
-	5840 3880 6240 3880
-Wire Wire Line
-	5840 3980 6240 3980
-Wire Wire Line
-	5840 4080 6240 4080
 $Comp
 L Device:Jumper_NC_Small JP?
 U 1 1 68216C57
@@ -4035,4 +3996,98 @@ Wire Wire Line
 	5840 2480 6240 2480
 Wire Wire Line
 	5840 2580 6240 2580
+Text Label 5940 2480 0    50   ~ 0
+Alim
+Text Label 5900 2580 0    50   ~ 0
+Spdl_pwm
+Text Label 5880 2680 0    50   ~ 0
+usart1_tx
+Text Label 5880 2780 0    50   ~ 0
+usart1_rx
+Text Label 5880 2880 0    50   ~ 0
+usb_d+
+Text Label 5880 2980 0    50   ~ 0
+usb_d-
+Text Label 5880 3080 0    50   ~ 0
+enc_pa
+Text Label 5880 3180 0    50   ~ 0
+enc_pb
+Text Label 5880 3280 0    50   ~ 0
+enc_idx
+Text Label 5900 3380 0    50   ~ 0
+probe
+Text Label 5840 3480 0    50   ~ 0
+cycle_start
+Text Label 5850 3580 0    50   ~ 0
+feed_hold
+Text Label 5900 3680 0    50   ~ 0
+i2c_scl
+Text Label 5900 3780 0    50   ~ 0
+i2c_sda
+$Comp
+L power:+3V3 #PWR?
+U 1 1 68439088
+P 6240 4080
+F 0 "#PWR?" H 6240 3930 50  0001 C CNN
+F 1 "+3V3" V 6270 4230 50  0000 L CNN
+F 2 "" H 6240 4080 50  0001 C CNN
+F 3 "" H 6240 4080 50  0001 C CNN
+	1    6240 4080
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6843DDDB
+P 6240 3880
+F 0 "#PWR?" H 6240 3730 50  0001 C CNN
+F 1 "+5V" V 6260 4050 50  0000 L CNN
+F 2 "" H 6240 3880 50  0001 C CNN
+F 3 "" H 6240 3880 50  0001 C CNN
+	1    6240 3880
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6843E09C
+P 6240 3980
+F 0 "#PWR?" H 6240 3730 50  0001 C CNN
+F 1 "GND" V 6220 3830 50  0000 R CNN
+F 2 "" H 6240 3980 50  0001 C CNN
+F 3 "" H 6240 3980 50  0001 C CNN
+	1    6240 3980
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6860C9C6
+P 7840 2280
+F 0 "#PWR?" H 7840 2030 50  0001 C CNN
+F 1 "GND" V 7880 2130 50  0000 R CNN
+F 2 "" H 7840 2280 50  0001 C CNN
+F 3 "" H 7840 2280 50  0001 C CNN
+	1    7840 2280
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6860CBE1
+P 7840 2180
+F 0 "#PWR?" H 7840 2030 50  0001 C CNN
+F 1 "+3V3" V 7840 2350 50  0000 L CNN
+F 2 "" H 7840 2180 50  0001 C CNN
+F 3 "" H 7840 2180 50  0001 C CNN
+	1    7840 2180
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6860CDFC
+P 7840 2380
+F 0 "#PWR?" H 7840 2230 50  0001 C CNN
+F 1 "+5V" V 7850 2520 50  0000 L CNN
+F 2 "" H 7840 2380 50  0001 C CNN
+F 3 "" H 7840 2380 50  0001 C CNN
+	1    7840 2380
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
