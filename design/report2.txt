@@ -1,0 +1,292 @@
+Jumper_NC_Small aktualisiert von JP173 auf JP181
+Jumper_NC_Small aktualisiert von JP182 auf JP190
+Jumper_NC_Small aktualisiert von JP181 auf JP189
+Jumper_NC_Small aktualisiert von JP180 auf JP188
+Jumper_NC_Small aktualisiert von JP179 auf JP187
+Jumper_NC_Small aktualisiert von JP178 auf JP186
+Jumper_NC_Small aktualisiert von JP177 auf JP185
+Jumper_NC_Small aktualisiert von JP176 auf JP184
+Jumper_NC_Small aktualisiert von JP175 auf JP183
+Jumper_NC_Small aktualisiert von JP174 auf JP182
+Jumper_NC_Small aktualisiert von JP183 auf JP191
+Jumper_NC_Small aktualisiert von JP172 auf JP180
+Jumper_NC_Small aktualisiert von JP171 auf JP179
+Jumper_NC_Small aktualisiert von JP170 auf JP178
+Jumper_NC_Small aktualisiert von JP169 auf JP177
+Jumper_NC_Small aktualisiert von JP168 auf JP176
+Jumper_NC_Small aktualisiert von JP167 auf JP175
+Jumper_NC_Small aktualisiert von JP166 auf JP174
+Jumper_NC_Small aktualisiert von JP165 auf JP173
+Jumper_NC_Small aktualisiert von JP192 auf JP200
+Jumper_NC_Dual aktualisiert von JP200 auf JP208
+Jumper_NC_Dual aktualisiert von JP199 auf JP207
+Jumper_NC_Dual aktualisiert von JP198 auf JP206
+Jumper_NC_Dual aktualisiert von JP197 auf JP205
+Jumper_NC_Dual aktualisiert von JP196 auf JP204
+Jumper_NC_Dual aktualisiert von JP195 auf JP203
+Jumper_NC_Dual aktualisiert von JP194 auf JP202
+Jumper_NC_Small aktualisiert von JP193 auf JP201
+Jumper_NC_Small aktualisiert von JP164 auf JP172
+Jumper_NC_Small aktualisiert von JP191 auf JP199
+Jumper_NC_Small aktualisiert von JP190 auf JP198
+Jumper_NC_Small aktualisiert von JP189 auf JP197
+Jumper_NC_Small aktualisiert von JP188 auf JP196
+Jumper_NC_Small aktualisiert von JP187 auf JP195
+Jumper_NC_Small aktualisiert von JP186 auf JP194
+Jumper_NC_Small aktualisiert von JP185 auf JP193
+Jumper_NC_Small aktualisiert von JP184 auf JP192
+Jumper_NC_Small aktualisiert von JP140 auf JP145
+Jumper_NC_Small aktualisiert von JP148 auf JP153
+Jumper_NC_Small aktualisiert von JP147 auf JP152
+Jumper_NC_Small aktualisiert von JP146 auf JP151
+Jumper_NC_Small aktualisiert von JP145 auf JP150
+Jumper_NC_Small aktualisiert von JP144 auf JP149
+Jumper_NC_Small aktualisiert von JP143 auf JP148
+Jumper_NC_Small aktualisiert von JP142 auf JP147
+Jumper_NC_Small aktualisiert von JP141 auf JP146
+Jumper_NC_Small aktualisiert von JP149 auf JP154
+Jumper_NC_Small aktualisiert von JP139 auf JP144
+Jumper_NC_Small aktualisiert von JP138 auf JP143
+Jumper_NC_Small aktualisiert von JP137 auf JP142
+Jumper_NC_Small aktualisiert von JP136 auf JP141
+Jumper_NC_Small annotiert als JP140
+Jumper_NC_Small annotiert als JP139
+Jumper_NC_Small aktualisiert von JP154 auf JP138
+Jumper_NC_Small annotiert als JP137
+Jumper_NC_Small aktualisiert von JP160 auf JP163
+Jumper_NC_Small aktualisiert von JP163 auf JP171
+Jumper_NC_Small aktualisiert von JP162 auf JP170
+Jumper_NC_Small annotiert als JP169
+Jumper_NC_Small annotiert als JP168
+Jumper_NC_Small annotiert als JP167
+Jumper_NC_Small annotiert als JP166
+Jumper_NC_Small annotiert als JP165
+Jumper_NC_Small aktualisiert von JP161 auf JP164
+Jumper_NC_Dual aktualisiert von JP201 auf JP209
+Jumper_NC_Small aktualisiert von JP159 auf JP162
+Jumper_NC_Small aktualisiert von JP158 auf JP161
+Jumper_NC_Small aktualisiert von JP157 auf JP160
+Jumper_NC_Small aktualisiert von JP156 auf JP159
+Jumper_NC_Dual aktualisiert von JP153 auf JP158
+Jumper_NC_Small aktualisiert von JP152 auf JP157
+Jumper_NC_Small aktualisiert von JP151 auf JP156
+Jumper_NC_Small aktualisiert von JP150 auf JP155
+2k aktualisiert von R139 auf R148
+1k aktualisiert von R148 auf R157
+1k aktualisiert von R147 auf R156
+1k aktualisiert von R146 auf R155
+1k aktualisiert von R145 auf R154
+1k aktualisiert von R144 auf R153
+1k aktualisiert von R143 auf R152
+1k aktualisiert von R142 auf R151
+2k aktualisiert von R141 auf R150
+2k aktualisiert von R140 auf R149
+1k aktualisiert von R149 auf R158
+2k aktualisiert von R138 auf R147
+2k aktualisiert von R137 auf R146
+2k aktualisiert von R136 auf R145
+10k aktualisiert von R135 auf R144
+10k aktualisiert von R134 auf R143
+10k aktualisiert von R133 auf R142
+10k annotiert als R141
+10k annotiert als R140
+YAAJ_WeAct_BlackPill_Part_Like aktualisiert von U108 auf U109
+ULN2003A aktualisiert von U114 auf U117
+ULN2003A aktualisiert von U113 auf U116
+ULN2003A aktualisiert von U112 auf U115
+74HCT541 aktualisiert von U111 auf U114
+74HCT541 aktualisiert von U110 auf U113
+74HCT541 aktualisiert von U109 auf U112
+TLV9001 annotiert als U111
+TLV9001 annotiert als U110
+10k aktualisiert von R132 auf R139
+TLV9001 annotiert als U108
+TLV9001 annotiert als U107
+100k annotiert als RV102
+100k aktualisiert von RV102 auf RV101
+1k aktualisiert von R153 auf R162
+1k aktualisiert von R152 auf R161
+1k aktualisiert von R151 auf R160
+1k aktualisiert von R150 auf R159
+Jumper_NC_Small aktualisiert von JP210 auf JP218
+Jumper_NC_Small aktualisiert von JP218 auf JP226
+Jumper_NC_Small aktualisiert von JP217 auf JP225
+Jumper_NC_Small aktualisiert von JP216 auf JP224
+Jumper_NC_Small aktualisiert von JP215 auf JP223
+Jumper_NC_Small aktualisiert von JP214 auf JP222
+Jumper_NC_Small aktualisiert von JP213 auf JP221
+Jumper_NC_Small aktualisiert von JP212 auf JP220
+Jumper_NC_Small aktualisiert von JP211 auf JP219
+Jumper_NC_Small aktualisiert von JP219 auf JP227
+Jumper_NC_Small aktualisiert von JP209 auf JP217
+Jumper_NC_Small aktualisiert von JP208 auf JP216
+Jumper_NC_Small aktualisiert von JP207 auf JP215
+Jumper_NC_Small aktualisiert von JP206 auf JP214
+Jumper_NC_Dual aktualisiert von JP205 auf JP213
+Jumper_NC_Dual aktualisiert von JP204 auf JP212
+Jumper_NC_Dual aktualisiert von JP203 auf JP211
+Jumper_NC_Dual aktualisiert von JP202 auf JP210
+200k annotiert als R130
+665k annotiert als R138
+665k aktualisiert von R131 auf R137
+6k2 annotiert als R136
+6k2 annotiert als R135
+348k annotiert als R134
+348k aktualisiert von R130 auf R133
+200k annotiert als R132
+200k aktualisiert von R128 auf R131
+Jumper_NC_Small annotiert als JP136
+200k aktualisiert von R126 auf R129
+4k87 annotiert als R128
+4k99 annotiert als R127
+4k87 annotiert als R126
+Jumper_NC_Small aktualisiert von JP223 auf JP231
+Jumper_NC_Small aktualisiert von JP222 auf JP230
+Jumper_NC_Small aktualisiert von JP221 auf JP229
+Jumper_NC_Small aktualisiert von JP220 auf JP228
+GND aktualisiert von #PWR0139 auf #PWR0163
+GND aktualisiert von #PWR0146 auf #PWR0172
+GND aktualisiert von #PWR0145 auf #PWR0171
+GND aktualisiert von #PWR0143 auf #PWR0170
+GND aktualisiert von #PWR0144 auf #PWR0169
+GND aktualisiert von #PWR0142 auf #PWR0168
++3V3 aktualisiert von #PWR0141 auf #PWR0167
+GND aktualisiert von #PWR0140 auf #PWR0166
++3.3V annotiert als #PWR0165
++3.3V annotiert als #PWR0164
+GND aktualisiert von #PWR0147 auf #PWR0173
+GNDS annotiert als #PWR0162
+GNDS annotiert als #PWR0161
+GND aktualisiert von #PWR0138 auf #PWR0160
+GNDS annotiert als #PWR0159
+GNDS annotiert als #PWR0158
+GND aktualisiert von #PWR0137 auf #PWR0157
+GNDS annotiert als #PWR0156
+GNDS annotiert als #PWR0155
+GND aktualisiert von #PWR0156 auf #PWR0182
+Vdrive aktualisiert von #PWR0164 auf #PWR0190
++12V aktualisiert von #PWR0163 auf #PWR0189
++5V aktualisiert von #PWR0162 auf #PWR0188
+GND aktualisiert von #PWR0161 auf #PWR0187
+GND aktualisiert von #PWR0160 auf #PWR0186
+GND aktualisiert von #PWR0159 auf #PWR0185
+GND aktualisiert von #PWR0158 auf #PWR0184
+GND aktualisiert von #PWR0157 auf #PWR0183
++3.3V annotiert als #PWR0154
+GND aktualisiert von #PWR0155 auf #PWR0181
+GND aktualisiert von #PWR0154 auf #PWR0180
++5V aktualisiert von #PWR0153 auf #PWR0179
+GND aktualisiert von #PWR0152 auf #PWR0178
++5V aktualisiert von #PWR0151 auf #PWR0177
+GND aktualisiert von #PWR0150 auf #PWR0176
++5V aktualisiert von #PWR0149 auf #PWR0175
+GND aktualisiert von #PWR0148 auf #PWR0174
++3.3V annotiert als #PWR0126
++5V aktualisiert von #PWR0127 auf #PWR0135
++3V3 aktualisiert von #PWR0124 auf #PWR0134
+GND aktualisiert von #PWR0123 auf #PWR0133
++5V aktualisiert von #PWR0122 auf #PWR0132
+GNDS annotiert als #PWR0131
+GNDS aktualisiert von #PWR0121 auf #PWR0130
+GNDS annotiert als #PWR0129
+GND annotiert als #PWR0127
++5V annotiert als #PWR0136
++5V annotiert als #PWR0125
+GNDS annotiert als #PWR0124
+GNDS aktualisiert von #PWR0119 auf #PWR0123
+GNDS annotiert als #PWR0122
+GNDS annotiert als #PWR0121
+GND aktualisiert von #PWR0118 auf #PWR0120
++5V aktualisiert von #PWR0117 auf #PWR0119
+GND annotiert als #PWR0118
+GND aktualisiert von #PWR0120 auf #PWR0145
++3.3V aktualisiert von #PWR0136 auf #PWR0153
++5V aktualisiert von #PWR0134 auf #PWR0152
+GND aktualisiert von #PWR0133 auf #PWR0151
++3V3 aktualisiert von #PWR0132 auf #PWR0150
+GNDS annotiert als #PWR0149
+GNDS aktualisiert von #PWR0135 auf #PWR0148
+GNDS annotiert als #PWR0147
+GNDS annotiert als #PWR0146
+GND aktualisiert von #PWR0165 auf #PWR0191
+GNDS annotiert als #PWR0144
+GNDS aktualisiert von #PWR0131 auf #PWR0143
+GNDS annotiert als #PWR0142
++5V annotiert als #PWR0141
+GNDS annotiert als #PWR0140
++5V annotiert als #PWR0139
+GND aktualisiert von #PWR0130 auf #PWR0138
++12V aktualisiert von #PWR0129 auf #PWR0137
+Jumper_NC_Small annotiert als JP107
+Jumper_NC_Small aktualisiert von JP114 auf JP116
+Jumper_NC_Small aktualisiert von JP113 auf JP115
+Jumper_NC_Small aktualisiert von JP112 auf JP114
+Jumper_NC_Small aktualisiert von JP111 auf JP113
+Jumper_NC_Small annotiert als JP112
+Jumper_NC_Small aktualisiert von JP128 auf JP111
+Jumper_NC_Dual annotiert als JP110
+Jumper_NC_Small aktualisiert von JP106 auf JP109
+Jumper_NC_Small aktualisiert von JP105 auf JP108
+Jumper_NC_Small aktualisiert von JP115 auf JP117
+Jumper_NC_Small aktualisiert von JP104 auf JP106
+Jumper_NC_Small aktualisiert von JP103 auf JP105
+Jumper_NC_Dual annotiert als JP104
+Jumper_NC_Dual annotiert als JP103
+Jumper_NC_Dual annotiert als JP102
+Jumper_NC_Dual annotiert als JP101
+AStepDrv aktualisiert von J125 auf J127
+ZStepDrv aktualisiert von J124 auf J126
+Jumper_NC_Small aktualisiert von JP124 auf JP126
+Jumper_NC_Small annotiert als JP135
+Jumper_NC_Small annotiert als JP134
+Jumper_NC_Small aktualisiert von JP132 auf JP133
+Jumper_NC_Small aktualisiert von JP131 auf JP132
+Jumper_NC_Small annotiert als JP131
+Jumper_NC_Small aktualisiert von JP127 auf JP129
+Jumper_NC_Small aktualisiert von JP126 auf JP128
+Jumper_NC_Small aktualisiert von JP125 auf JP127
+YStepDrv aktualisiert von J123 auf J125
+Jumper_NC_Small aktualisiert von JP123 auf JP125
+Jumper_NC_Small aktualisiert von JP122 auf JP124
+Jumper_NC_Small aktualisiert von JP121 auf JP123
+Jumper_NC_Small aktualisiert von JP120 auf JP122
+Jumper_NC_Small aktualisiert von JP119 auf JP121
+Jumper_NC_Small aktualisiert von JP118 auf JP120
+Jumper_NC_Small aktualisiert von JP117 auf JP119
+Jumper_NC_Small aktualisiert von JP116 auf JP118
+200pF aktualisiert von C110 auf C114
+100nF aktualisiert von C114 auf C122
+3.3nF annotiert als C121
+3.3nF annotiert als C120
+131µF aktualisiert von C113 auf C119
+330pF annotiert als C118
+330pF aktualisiert von C112 auf C117
+100nF aktualisiert von C111 auf C116
+200pF annotiert als C115
+BAT54S annotiert als D103
+100nF annotiert als C113
+50n annotiert als C112
+50n aktualisiert von C108 auf C111
+100nF annotiert als C110
+100nF annotiert als C109
+100nF annotiert als C108
+Vdrive aktualisiert von #PWR0167 auf #PWR0193
+Vdrive aktualisiert von #PWR0166 auf #PWR0192
+Reset aktualisiert von J114 auf J116
+XStepDrv aktualisiert von J122 auf J124
+AuxOut aktualisiert von J121 auf J123
+Coolant aktualisiert von J120 auf J122
+Spindle aktualisiert von J119 auf J121
+Spindle/Coolant aktualisiert von J118 auf J120
+SpindleVFD aktualisiert von J117 auf J119
+I2C aktualisiert von J116 auf J118
+UART1 aktualisiert von J115 auf J117
++5V aktualisiert von #PWR0125 auf #PWR0117
+stepDriverLim aktualisiert von J113 auf J115
+ADC_in_2 annotiert als J114
+ADC_in_1 annotiert als J113
+BAT54S annotiert als D108
+BAT54S annotiert als D107
+BAT54S annotiert als D106
+BAT54S annotiert als D105
+BAT54S annotiert als D104

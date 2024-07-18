@@ -1,0 +1,325 @@
+Jumper_NC_Dual annotiert als JP194
+Jumper_NC_Dual annotiert als JP204
+Jumper_NC_Dual annotiert als JP203
+Jumper_NC_Dual annotiert als JP202
+Jumper_NC_Dual annotiert als JP201
+Jumper_NC_Dual annotiert als JP200
+Jumper_NC_Dual annotiert als JP199
+Jumper_NC_Dual annotiert als JP198
+Jumper_NC_Dual annotiert als JP197
+Jumper_NC_Dual annotiert als JP196
+Jumper_NC_Dual annotiert als JP195
+Jumper_NC_Dual annotiert als JP205
+Jumper_NC_Small annotiert als JP193
+Jumper_NC_Small annotiert als JP192
+Jumper_NC_Small annotiert als JP191
+Jumper_NC_Small annotiert als JP190
+Jumper_NC_Small annotiert als JP189
+Jumper_NC_Small annotiert als JP188
+Jumper_NC_Small annotiert als JP187
+Jumper_NC_Small annotiert als JP186
+Jumper_NC_Small annotiert als JP185
+Jumper_NC_Small annotiert als JP215
+470 aktualisiert von R9 auf R101
+Jumper_NC_Small annotiert als JP223
+Jumper_NC_Small annotiert als JP222
+Jumper_NC_Small annotiert als JP221
+Jumper_NC_Small annotiert als JP220
+Jumper_NC_Small annotiert als JP219
+Jumper_NC_Small annotiert als JP218
+Jumper_NC_Small annotiert als JP217
+Jumper_NC_Small annotiert als JP216
+Jumper_NC_Small annotiert als JP184
+Jumper_NC_Small annotiert als JP214
+Jumper_NC_Small annotiert als JP213
+Jumper_NC_Small annotiert als JP212
+Jumper_NC_Small annotiert als JP211
+Jumper_NC_Small annotiert als JP210
+Jumper_NC_Small annotiert als JP209
+Jumper_NC_Small annotiert als JP208
+Jumper_NC_Small annotiert als JP207
+Jumper_NC_Small annotiert als JP206
+Jumper_NC_Dual annotiert als JP153
+Jumper_NC_Small annotiert als JP163
+Jumper_NC_Small annotiert als JP162
+Jumper_NC_Small annotiert als JP161
+Jumper_NC_Small annotiert als JP160
+Jumper_NC_Small annotiert als JP159
+Jumper_NC_Small annotiert als JP158
+Jumper_NC_Small annotiert als JP157
+Jumper_NC_Small annotiert als JP156
+Jumper_NC_Small annotiert als JP155
+Jumper_NC_Small annotiert als JP154
+Jumper_NC_Small annotiert als JP164
+Jumper_NC_Small annotiert als JP152
+Jumper_NC_Small annotiert als JP151
+Jumper_NC_Small annotiert als JP150
+Jumper_NC_Small annotiert als JP149
+Jumper_NC_Small annotiert als JP148
+Jumper_NC_Small annotiert als JP147
+Jumper_NC_Small annotiert als JP146
+Jumper_NC_Small annotiert als JP145
+Jumper_NC_Small annotiert als JP144
+Jumper_NC_Small annotiert als JP174
+Jumper_NC_Small annotiert als JP183
+Jumper_NC_Small annotiert als JP182
+Jumper_NC_Small annotiert als JP181
+Jumper_NC_Small annotiert als JP180
+Jumper_NC_Small annotiert als JP179
+Jumper_NC_Small annotiert als JP178
+Jumper_NC_Small annotiert als JP177
+Jumper_NC_Small annotiert als JP176
+Jumper_NC_Small annotiert als JP175
+470 aktualisiert von R7 auf R102
+Jumper_NC_Small annotiert als JP173
+Jumper_NC_Small annotiert als JP172
+Jumper_NC_Small annotiert als JP171
+Jumper_NC_Small annotiert als JP170
+Jumper_NC_Small annotiert als JP169
+Jumper_NC_Small annotiert als JP168
+Jumper_NC_Small annotiert als JP167
+Jumper_NC_Small annotiert als JP166
+Jumper_NC_Small annotiert als JP165
+1k annotiert als R152
+TLP290-4 aktualisiert (Einheit B) von U3B zu U102B
+TLP290-4 aktualisiert (Einheit A) von U3A zu U102A
+TLP290-4 aktualisiert (Einheit D) von U2D zu U101D
+TLP290-4 aktualisiert (Einheit C) von U2C zu U101C
+TLP290-4 aktualisiert (Einheit B) von U2B zu U101B
+TLP290-4 aktualisiert (Einheit A) von U2A zu U101A
+2k annotiert als RV103
+1k annotiert als RV102
+4k7 annotiert als RV101
+1k annotiert als R153
+TLP290-4 aktualisiert (Einheit C) von U3C zu U102C
+1k annotiert als R151
+1k annotiert als R150
+1k annotiert als R149
+1k annotiert als R148
+1k annotiert als R147
+1k annotiert als R146
+1k annotiert als R145
+1k annotiert als R144
+1k annotiert als R143
+Annotiert: LM358 (Einheit C) als U106C
+ULN2003A annotiert als U114
+ULN2003A annotiert als U113
+ULN2003A annotiert als U112
+74HCT541 annotiert als U111
+74HCT541 annotiert als U110
+74HCT541 annotiert als U109
+Annotiert: LM358 (Einheit A) als U106A
+Annotiert: TLC272 (Einheit A) als U107A
+YAAJ_WeAct_BlackPill_Part_Like annotiert als U108
+1k annotiert als R142
+Annotiert: TLC272 (Einheit C) als U107C
+Annotiert: TLC272 (Einheit B) als U107B
+Annotiert: LM358 (Einheit B) als U106B
+LD1117S50TR_SOT223 annotiert als U105
+74LVC2G17 aktualisiert (Einheit B) von U10B zu U104B
+74LVC2G17 aktualisiert (Einheit A) von U10A zu U104A
+TLP290-4 aktualisiert (Einheit D) von U8D zu U103D
+TLP290-4 aktualisiert (Einheit C) von U8C zu U103C
+TLP290-4 aktualisiert (Einheit D) von U3D zu U102D
+1k5 annotiert als R112
+2K2 aktualisiert von R16 auf R121
+2K2 aktualisiert von R17 auf R120
+2K2 aktualisiert von R14 auf R119
+2K2 aktualisiert von R15 auf R118
+2K2 aktualisiert von R12 auf R117
+2K2 aktualisiert von R13 auf R116
+2K2 aktualisiert von R10 auf R115
+2K2 aktualisiert von R11 auf R114
+10K aktualisiert von R43 auf R113
+2K2 aktualisiert von R36 auf R122
+470 annotiert als R111
+10K aktualisiert von R42 auf R110
+470 annotiert als R109
+470 annotiert als R108
+470 annotiert als R107
+470 annotiert als R106
+470 annotiert als R105
+470 aktualisiert von R2 auf R104
+470 aktualisiert von R5 auf R103
+10k annotiert als R132
+2k annotiert als R141
+2k annotiert als R140
+2k annotiert als R139
+2k annotiert als R138
+2k annotiert als R137
+2k annotiert als R136
+10k annotiert als R135
+10k annotiert als R134
+10k annotiert als R133
+Jumper_NC_Small annotiert als JP143
+20k annotiert als R131
+10k annotiert als R130
+3k9 annotiert als R129
+330k annotiert als R128
+150k annotiert als R127
+20k annotiert als R126
+5k6 annotiert als R125
+470 annotiert als R124
+2K2 aktualisiert von R41 auf R123
++5V aktualisiert von #PWR0119 auf #PWR0151
+GND aktualisiert von #PWR0133 auf #PWR0161
+GND aktualisiert von #PWR0123 auf #PWR0160
+GND aktualisiert von #PWR0114 auf #PWR0159
+GND aktualisiert von #PWR0109 auf #PWR0158
+GND aktualisiert von #PWR0126 auf #PWR0157
+GND aktualisiert von #PWR0121 auf #PWR0156
+GND aktualisiert von #PWR0112 auf #PWR0155
+GND aktualisiert von #PWR0122 auf #PWR0154
++5V aktualisiert von #PWR0125 auf #PWR0153
+GND aktualisiert von #PWR0113 auf #PWR0152
++5V aktualisiert von #PWR0130 auf #PWR0162
+GND aktualisiert von #PWR0108 auf #PWR0150
++5V aktualisiert von #PWR0111 auf #PWR0149
+GND aktualisiert von #PWR0124 auf #PWR0148
+GND aktualisiert von #PWR0115 auf #PWR0147
+GND aktualisiert von #PWR0110 auf #PWR0146
+GND aktualisiert von #PWR0135 auf #PWR0145
+GND aktualisiert von #PWR0139 auf #PWR0144
+GND aktualisiert von #PWR0134 auf #PWR0143
+GND aktualisiert von #PWR0116 auf #PWR0142
+100nF annotiert als C105
+100nF annotiert als C114
+131µF annotiert als C113
+10nF annotiert als C112
+100nF annotiert als C111
+100nF annotiert als C110
+1µF annotiert als C109
+10µF annotiert als C108
+100nF annotiert als C107
+100nF annotiert als C106
++3V3 aktualisiert von #PWR0144 auf #PWR0141
+10u annotiert als C104
+100nF annotiert als C103
+1000u annotiert als C102
+100nF annotiert als C101
+Vdrive aktualisiert von #PWR0132 auf #PWR0167
+Vdrive aktualisiert von #PWR0127 auf #PWR0166
+GND aktualisiert von #PWR0141 auf #PWR0165
+Vdrive aktualisiert von #PWR0129 auf #PWR0164
++12V aktualisiert von #PWR0131 auf #PWR0163
++3.3V aktualisiert von #PWR0117 auf #PWR0111
+GND aktualisiert von #PWR0137 auf #PWR0120
+GNDS aktualisiert von #PWR0165 auf #PWR0119
+GND aktualisiert von #PWR0146 auf #PWR0118
++5V aktualisiert von #PWR0147 auf #PWR0117
+GNDS aktualisiert von #PWR0157 auf #PWR0116
++5V aktualisiert von #PWR0153 auf #PWR0115
+GND aktualisiert von #PWR0151 auf #PWR0114
+GNDS aktualisiert von #PWR0158 auf #PWR0113
++3.3V aktualisiert von #PWR0120 auf #PWR0112
+GNDS aktualisiert von #PWR0164 auf #PWR0121
+GNDS aktualisiert von #PWR0148 auf #PWR0110
+GNDS aktualisiert von #PWR0118 auf #PWR0109
+GNDS aktualisiert von #PWR0155 auf #PWR0108
++3.3V aktualisiert von #PWR0154 auf #PWR0107
+GNDS aktualisiert von #PWR0156 auf #PWR0106
++5V aktualisiert von #PWR0145 auf #PWR0105
++12V aktualisiert von #PWR0152 auf #PWR0104
+GND aktualisiert von #PWR0150 auf #PWR0103
+GND aktualisiert von #PWR0128 auf #PWR0102
+GNDS aktualisiert von #PWR0166 auf #PWR0131
+GND aktualisiert von #PWR0107 auf #PWR0140
+GND aktualisiert von #PWR0142 auf #PWR0139
+GND aktualisiert von #PWR0140 auf #PWR0138
+GND aktualisiert von #PWR0143 auf #PWR0137
++3.3V aktualisiert von #PWR0167 auf #PWR0136
+GNDS aktualisiert von #PWR0159 auf #PWR0135
++5V aktualisiert von #PWR0106 auf #PWR0134
+GND aktualisiert von #PWR0104 auf #PWR0133
++3V3 aktualisiert von #PWR0105 auf #PWR0132
+LED annotiert als D101
+GND aktualisiert von #PWR0136 auf #PWR0130
++12V aktualisiert von #PWR0138 auf #PWR0129
+GNDS aktualisiert von #PWR0160 auf #PWR0128
++5V aktualisiert von #PWR0163 auf #PWR0127
+GNDS aktualisiert von #PWR0161 auf #PWR0126
++5V aktualisiert von #PWR0162 auf #PWR0125
++3V3 aktualisiert von #PWR0101 auf #PWR0124
+GND aktualisiert von #PWR0103 auf #PWR0123
++5V aktualisiert von #PWR0102 auf #PWR0122
+Jumper_NC_Small annotiert als JP112
+Jumper_NC_Small annotiert als JP122
+Jumper_NC_Small annotiert als JP121
+Jumper_NC_Small annotiert als JP120
+Jumper_NC_Small annotiert als JP119
+Jumper_NC_Small annotiert als JP118
+Jumper_NC_Small annotiert als JP117
+Jumper_NC_Small annotiert als JP116
+Jumper_NC_Small annotiert als JP115
+Jumper_NC_Small annotiert als JP114
+Jumper_NC_Small annotiert als JP113
+Jumper_NC_Small annotiert als JP123
+Jumper_NC_Small annotiert als JP111
+Jumper_NC_Small annotiert als JP110
+Jumper_NC_Small annotiert als JP109
+Jumper_NC_Small annotiert als JP108
+Jumper_NC_Small annotiert als JP107
+Jumper_NC_Small annotiert als JP106
+Jumper_NC_Small annotiert als JP105
+Jumper_NC_Small annotiert als JP104
+Jumper_NC_Small annotiert als JP103
+Jumper_NC_Small annotiert als JP133
+Jumper_NC_Small annotiert als JP142
+Jumper_NC_Small annotiert als JP141
+Jumper_NC_Small annotiert als JP140
+Jumper_NC_Small annotiert als JP139
+Jumper_NC_Small annotiert als JP138
+Jumper_NC_Small annotiert als JP137
+Jumper_NC_Small annotiert als JP136
+Jumper_NC_Small annotiert als JP135
+Jumper_NC_Small annotiert als JP134
+Jumper_NC_Small annotiert als JP102
+Jumper_NC_Small annotiert als JP132
+Jumper_NC_Small annotiert als JP131
+Jumper_NC_Small annotiert als JP130
+Jumper_NC_Small annotiert als JP129
+Jumper_NC_Small annotiert als JP128
+Jumper_NC_Small annotiert als JP127
+Jumper_NC_Small annotiert als JP126
+Jumper_NC_Small annotiert als JP125
+Jumper_NC_Small annotiert als JP124
+LED annotiert als D111
+FH_IN annotiert als J106
+CS_IN annotiert als J105
+XLimIN annotiert als J104
+YLimIN annotiert als J103
+ZLimIN annotiert als J102
+ALimIN annotiert als J101
+LED annotiert als D114
+LED annotiert als D113
+LED annotiert als D112
+DoorIN annotiert als J107
+LED annotiert als D110
+LED annotiert als D109
+D_Schottky annotiert als D108
+D_Schottky annotiert als D107
+D_Schottky annotiert als D106
+D_Schottky annotiert als D105
+D annotiert als D104
+D annotiert als D103
+LED annotiert als D102
+SpindleVFD annotiert als J117
+Jumper_NC_Small annotiert als JP101
+AStepDrv annotiert als J125
+ZStepDrv annotiert als J124
+YStepDrv annotiert als J123
+XStepDrv annotiert als J122
+AuxOut annotiert als J121
+Coolant annotiert als J120
+Spindle annotiert als J119
+Spindle/Coolant aktualisiert von J14 auf J118
+GNDS aktualisiert von #PWR0149 auf #PWR0101
+I2C annotiert als J116
+UART1 annotiert als J115
+Reset aktualisiert von J23 auf J114
+stepDriverLim annotiert als J113
+5V Power out annotiert als J112
+AuxEncIn aktualisiert von J19 auf J111
+12V Power in annotiert als J110
+ProbeIN annotiert als J109
+ResetIN annotiert als J108
