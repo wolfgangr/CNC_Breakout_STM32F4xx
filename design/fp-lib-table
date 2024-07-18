@@ -1,2 +1,7 @@
 (fp_lib_table
+  (lib (name design)(type KiCad)(uri /home/cleo-home/wrosner/daten/hardtec/CNC/gcode-tools/grbl/Bluepill-breakout/CNC_Breakout_STM32F4xx/design)(options "")(descr "")(disabled))
+  (lib (name Footprints)(type KiCad)(uri ${KIPRJMOD}/parts/Kicad-STM32-master/Footprints)(options "")(descr ""))
+  (lib (name parts)(type KiCad)(uri ${KIPRJMOD}/parts)(options "")(descr "")(disabled))
+  (lib (name snapEDA)(type KiCad)(uri ${KIPRJMOD}/parts/SnapEDA/Footprints.pretty)(options "")(descr "")(disabled))
+  (lib (name WeAct_Black_Pill_V2.0)(type KiCad)(uri ${KIPRJMOD}/parts/kicad-lib-WeAct-Black-Pill-V2-main/WeAct_Black_Pill_V2.0.pretty)(options "")(descr "")(disabled))
 )
