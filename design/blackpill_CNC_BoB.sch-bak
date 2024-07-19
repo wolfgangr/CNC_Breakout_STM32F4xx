@@ -6302,10 +6302,10 @@ Connection ~ 5100 9300
 Wire Wire Line
 	5100 9300 5400 9300
 $Comp
-L Device:Jumper_NC_Dual JP?
+L Device:Jumper_NC_Dual JP135
 U 1 1 6913274A
 P 6450 7150
-F 0 "JP?" H 6450 7150 50  0000 C CNN
+F 0 "JP135" H 6450 7150 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 6450 7350 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6450 7150 50  0001 C CNN
 F 3 "~" H 6450 7150 50  0001 C CNN
@@ -6313,10 +6313,10 @@ F 3 "~" H 6450 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Jumper_NC_Dual JP?
+L Device:Jumper_NC_Dual JP134
 U 1 1 6913117A
 P 6450 5400
-F 0 "JP?" H 6450 5400 50  0000 C CNN
+F 0 "JP134" H 6450 5400 50  0000 C CNN
 F 1 "Jumper_NC_Dual" H 6450 5600 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6450 5400 50  0001 C CNN
 F 3 "~" H 6450 5400 50  0001 C CNN
@@ -6353,4 +6353,75 @@ Wire Wire Line
 	6450 6950 6350 6950
 Wire Wire Line
 	6350 6950 6350 6750
+$Comp
+L Nucleo64-CNC-rescue:Vdrive-power #PWR?
+U 1 1 698A2D21
+P 6950 8950
+F 0 "#PWR?" H 6750 8800 50  0001 C CNN
+F 1 "Vdrive" H 6967 9123 50  0000 C CNN
+F 2 "" H 6950 8950 50  0001 C CNN
+F 3 "" H 6950 8950 50  0001 C CNN
+	1    6950 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 698AEEDC
+P 7150 9300
+F 0 "J?" H 7150 9100 50  0000 C CNN
+F 1 "Driver Power in/out" V 7300 9250 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 7150 9300 50  0001 C CNN
+F 3 "~" H 7150 9300 50  0001 C CNN
+	1    7150 9300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 698B07EF
+P 6950 9300
+F 0 "#PWR?" H 6950 9050 50  0001 C CNN
+F 1 "GND" H 7000 9100 50  0001 C CNN
+F 2 "" H 6950 9300 50  0001 C CNN
+F 3 "" H 6950 9300 50  0001 C CNN
+	1    6950 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 698B1E24
+P 6750 9200
+F 0 "JP?" H 6750 9350 50  0000 L CNN
+F 1 "Jumper_NC_Dual" V 6750 9350 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6750 9200 50  0001 C CNN
+F 3 "~" H 6750 9200 50  0001 C CNN
+	1    6750 9200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 698C5FFC
+P 6750 9450
+F 0 "#PWR?" H 6750 9300 50  0001 C CNN
+F 1 "+5V" V 6750 9650 50  0000 C CNN
+F 2 "" H 6750 9450 50  0001 C CNN
+F 3 "" H 6750 9450 50  0001 C CNN
+	1    6750 9450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 698CEBA8
+P 6750 8950
+F 0 "#PWR?" H 6750 8800 50  0001 C CNN
+F 1 "+12V" V 6750 9200 50  0000 C CNN
+F 2 "" H 6750 8950 50  0001 C CNN
+F 3 "" H 6750 8950 50  0001 C CNN
+	1    6750 8950
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6850 9200 6950 9200
+Wire Wire Line
+	6950 9200 6950 8950
+Connection ~ 6950 9200
 $EndSCHEMATC
