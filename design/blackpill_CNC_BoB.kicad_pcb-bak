@@ -1145,7 +1145,7 @@
   )
 
   (module conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical (layer F.Cu) (tedit 669A78C3) (tstamp 6699E18A)
-    (at 217.17 196.85 90)
+    (at 179.07 162.56 90)
     (descr "Screw terminal, 1x2, 2.54mm pitch, single row")
     (tags "Through hole screw terminal THT 1x2 2.54mm single row")
     (path /77513761)
@@ -1192,7 +1192,7 @@
   )
 
   (module conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical (layer F.Cu) (tedit 669A78C3) (tstamp 6699E166)
-    (at 217.17 209.55 90)
+    (at 179.07 130.81 90)
     (descr "Screw terminal, 1x2, 2.54mm pitch, single row")
     (tags "Through hole screw terminal THT 1x2 2.54mm single row")
     (path /77351844)
@@ -2382,7 +2382,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DDB0)
-    (at 173.719001 282.573001)
+    (at 207.01 139.7)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /73F75160)
@@ -2418,7 +2418,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DDC1)
-    (at 135.869001 320.493001)
+    (at 207.01 167.64)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /77513667)
@@ -2453,7 +2453,7 @@
     )
   )
 
-  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DDD2)
+  (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 669EF617)
     (at 144.329001 311.883001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
@@ -2490,7 +2490,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DDE3)
-    (at 103.629001 285.863001)
+    (at 213.36 142.24)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /73E74ABF)
@@ -2526,7 +2526,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DDF4)
-    (at 131.949001 249.063001)
+    (at 214.63 166.37)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /7751365A)
@@ -2562,15 +2562,15 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DE05)
-    (at 183.339001 273.343001)
+    (at 175.26 80.01 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /70025BFF)
     (attr smd)
-    (fp_text reference C116 (at 0 -1.43) (layer F.SilkS)
+    (fp_text reference C116 (at 0 -1.43 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100nF (at 0 1.43) (layer F.Fab)
+    (fp_text value 100nF (at 0 1.43 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer F.CrtYd) (width 0.05))
@@ -2583,12 +2583,12 @@
     (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
     (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.4 0.4) (thickness 0.06)))
     )
-    (pad 2 smd roundrect (at 0.775 0) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.775 0 270) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GND))
-    (pad 1 smd roundrect (at -0.775 0) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.775 0 270) (size 0.9 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 +12V))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
@@ -2598,7 +2598,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DE16)
-    (at 168.469001 288.183001)
+    (at 224.79 134.62)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /7518F5F7)
@@ -2634,7 +2634,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DE27)
-    (at 150.069001 309.843001)
+    (at 223.52 165.1)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /775136B0)
@@ -2706,7 +2706,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DE49)
-    (at 159.009001 299.953001)
+    (at 226.06 137.16)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /76D7AB39)
@@ -2742,7 +2742,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699DE5A)
-    (at 179.329001 273.343001)
+    (at 227.33 157.48)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /77513723)
@@ -2926,7 +2926,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699DEB7)
-    (at 183.479001 263.393001)
+    (at 212.09 125.73)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /7585DF2C)
@@ -2967,7 +2967,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699DECC)
-    (at 131.679001 313.103001)
+    (at 210.82 156.21)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /775136BC)
@@ -3008,7 +3008,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699DEE1)
-    (at 155.819001 291.403001)
+    (at 219.71 125.73)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /7674B5B8)
@@ -3049,7 +3049,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699DEF6)
-    (at 164.879001 281.703001)
+    (at 215.9 154.94)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /77513708)
@@ -3090,7 +3090,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699DF0B)
-    (at 178.829001 267.303001)
+    (at 227.33 125.73)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /76D7B41B)
@@ -3131,7 +3131,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699DF20)
-    (at 146.519001 301.993001)
+    (at 226.06 153.67)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /77513735)
@@ -3914,7 +3914,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E3EF)
-    (at 132.429001 264.493001)
+    (at 191.77 127)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /76F8B233)
@@ -3956,7 +3956,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E406)
-    (at 158.669001 238.553001)
+    (at 190.5 156.21)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /7751374A)
@@ -3998,7 +3998,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E41D)
-    (at 117.989001 275.783001)
+    (at 203.2 143.51 180)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /76FE22D8)
@@ -4026,11 +4026,11 @@
     (fp_text user %R (at 0 2.54 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 3 thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 93 "Net-(JP105-Pad3)"))
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 90 "Net-(JP103-Pad1)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4040,7 +4040,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E434)
-    (at 79.129001 311.003001)
+    (at 200.66 175.26 180)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /77513750)
@@ -4068,11 +4068,11 @@
     (fp_text user %R (at 0 2.54 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 3 thru_hole oval (at 0 5.08 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 94 "Net-(JP106-Pad3)"))
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 92 "Net-(JP104-Pad1)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GND))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4082,7 +4082,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E44A)
-    (at 109.419001 296.383001)
+    (at 55.88 162.56 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /69A7DC7D)
@@ -4110,9 +4110,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 95 "Net-(JP107-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 96 /AuxOut0))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4122,7 +4122,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E460)
-    (at 82.399001 327.913001)
+    (at 53.34 162.56 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /69A7DDF9)
@@ -4150,9 +4150,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 95 "Net-(JP107-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 49 /SCL))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4162,7 +4162,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E476)
-    (at 154.279001 255.453001)
+    (at 50.8 162.56 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /7765E920)
@@ -4190,9 +4190,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 95 "Net-(JP107-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 21 /ADC1_buf))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4202,7 +4202,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E48C)
-    (at 114.069001 296.383001)
+    (at 59.69 162.56 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /69B34161)
@@ -4230,9 +4230,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 97 "Net-(JP110-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 50 /SDA))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4242,7 +4242,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E4A2)
-    (at 146.379001 262.753001)
+    (at 62.23 162.56 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /69B33E8D)
@@ -4270,9 +4270,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 97 "Net-(JP110-Pad2)"))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 98 /AuxOut1))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -4324,7 +4324,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E4CF)
-    (at 98.269001 311.173001)
+    (at 210.82 138.43)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /74077321)
@@ -4364,7 +4364,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E4E5)
-    (at 127.289001 281.393001)
+    (at 207.01 170.18)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /77513676)
@@ -5082,7 +5082,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E671)
-    (at 136.989001 277.153001)
+    (at 213.36 135.89)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /74076EED)
@@ -5122,7 +5122,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E687)
-    (at 123.369001 290.183001)
+    (at 212.09 167.64)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /77513670)
@@ -5402,7 +5402,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 669A3775)
-    (at 107.569001 306.083001)
+    (at 220.98 135.89)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /7518F871)
@@ -5442,7 +5442,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E737)
-    (at 141.729001 262.753001)
+    (at 224.79 167.64)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /775136B6)
@@ -6322,7 +6322,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E91C)
-    (at 141.239001 284.353001)
+    (at 63.5 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /694B59C1)
@@ -6350,9 +6350,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 168 /XEnable))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 161 "Net-(JP158-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6362,7 +6362,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E932)
-    (at 164.979001 260.153001)
+    (at 66.04 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /694B5BE2)
@@ -6390,9 +6390,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 169 /YEnable))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 161 "Net-(JP158-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6402,7 +6402,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E948)
-    (at 121.519001 304.583001)
+    (at 68.58 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /694B5E04)
@@ -6430,9 +6430,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 170 /ZEnable))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 161 "Net-(JP158-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6442,7 +6442,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E95E)
-    (at 105.649001 320.483001)
+    (at 71.12 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /694B602B)
@@ -6470,9 +6470,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 171 /AEnable))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 161 "Net-(JP158-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6482,7 +6482,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E974)
-    (at 170.769001 252.953001)
+    (at 45.72 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /697D6996)
@@ -6510,9 +6510,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 48 /~Strobe))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 153 "Net-(JP153-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6522,7 +6522,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E98A)
-    (at 128.019001 295.793001)
+    (at 48.26 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /697D6BD3)
@@ -6550,9 +6550,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 172 /Door))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 153 "Net-(JP153-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6562,7 +6562,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E9A0)
-    (at 146.289001 277.153001)
+    (at 50.8 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /7780800D)
@@ -6590,9 +6590,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 22 /ADC2_buf))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 153 "Net-(JP153-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6602,7 +6602,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E9B6)
-    (at 100.999001 320.483001)
+    (at 54.61 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /777A1A99)
@@ -6630,9 +6630,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 21 /ADC1_buf))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 154 "Net-(JP154-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6642,7 +6642,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E9CC)
-    (at 172.619001 245.753001)
+    (at 57.15 121.92 180)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /777A1A9F)
@@ -6670,9 +6670,9 @@
     (fp_text user %R (at 0 1.27 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 173 /Reset))
-    (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 154 "Net-(JP154-Pad2)"))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -6682,7 +6682,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E9E2)
-    (at 96.349001 325.573001)
+    (at 228.6 135.89)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /76D7A8F7)
@@ -6722,7 +6722,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6699E9F8)
-    (at 112.219001 310.783001)
+    (at 231.14 166.37)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /7751371D)
@@ -9338,7 +9338,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699EF95)
-    (at 179.329001 278.363001)
+    (at 218.44 172.72)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /677A4CC0)
@@ -9374,7 +9374,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699EFA6)
-    (at 122.319001 263.923001)
+    (at 217.17 143.51)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /6769BC49)
@@ -9410,7 +9410,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699EFB7)
-    (at 182.619001 270.833001)
+    (at 190.5 167.64)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /67593062)
@@ -9446,7 +9446,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699EFC8)
-    (at 156.319001 297.443001)
+    (at 191.77 137.16)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /672F543C)
@@ -10346,7 +10346,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F171)
-    (at 125.039001 325.333001)
+    (at 191.77 142.24)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /748CDF4B)
@@ -10382,7 +10382,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F182)
-    (at 136.109001 312.303001)
+    (at 193.04 147.32)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /758B665F)
@@ -10418,7 +10418,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F193)
-    (at 189.069001 259.303001)
+    (at 190.5 171.45)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /77513684)
@@ -10454,7 +10454,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F1A4)
-    (at 119.429001 328.623001)
+    (at 190.5 175.26)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /775136C2)
@@ -10490,7 +10490,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F1B5)
-    (at 127.649001 330.573001)
+    (at 201.93 125.73)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /733EDEC9)
@@ -10526,7 +10526,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F1C6)
-    (at 133.259001 323.003001)
+    (at 200.66 158.75)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /77513636)
@@ -10562,7 +10562,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F1D7)
-    (at 154.999001 300.533001)
+    (at 207.01 125.73)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /73ECA0FB)
@@ -10598,7 +10598,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F1E8)
-    (at 191.319001 267.493001)
+    (at 207.01 158.75)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /77513660)
@@ -10634,7 +10634,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F1F9)
-    (at 193.279001 261.593001)
+    (at 214.63 129.54)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /7374B0D5)
@@ -10670,7 +10670,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F20A)
-    (at 123.639001 330.913001)
+    (at 217.17 157.48)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /7751363C)
@@ -10706,7 +10706,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F21B)
-    (at 35.259001 333.003001)
+    (at 219.71 129.54)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /761C7B99)
@@ -10742,7 +10742,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F22C)
-    (at 90.599001 292.943001)
+    (at 222.25 157.48)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /775136F2)
@@ -10778,7 +10778,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F23D)
-    (at 159.609001 294.933001)
+    (at 217.17 138.43)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /7374B2F7)
@@ -10814,7 +10814,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F24E)
-    (at 150.749001 304.823001)
+    (at 219.71 167.64)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /77513642)
@@ -10922,7 +10922,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F281)
-    (at 173.719001 280.063001)
+    (at 232.41 133.35)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /76D7A51A)
@@ -10958,7 +10958,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 6699F292)
-    (at 193.279001 259.083001)
+    (at 232.41 162.56)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /77513717)
@@ -12324,7 +12324,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-353_SC-70-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699F530)
-    (at 160.169001 291.503001)
+    (at 210.82 132.08)
     (descr "SOT-353, SC-70-5")
     (tags "SOT-353 SC-70-5")
     (path /75FD0BF5)
@@ -12367,7 +12367,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-353_SC-70-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699F545)
-    (at 183.179001 267.593001)
+    (at 213.36 162.56)
     (descr "SOT-353, SC-70-5")
     (tags "SOT-353 SC-70-5")
     (path /775136D6)
@@ -12409,7 +12409,7 @@
     )
   )
 
-  (module Footprints:YAAJ_WeAct_BlackPill_2 (layer F.Cu) (tedit 615F6669) (tstamp 669A2BD1)
+  (module Footprints:YAAJ_WeAct_BlackPill_2 (layer F.Cu) (tedit 615F6669) (tstamp 669EF311)
     (at 17.78 148.59 90)
     (descr "Through hole headers for BluePill module. No SWD breakout. Fancy silkscreen.")
     (tags "module BlluePill Blue Pill header SWD breakout")
@@ -12583,7 +12583,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-353_SC-70-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699F5B4)
-    (at 150.869001 301.643001)
+    (at 224.79 132.08)
     (descr "SOT-353, SC-70-5")
     (tags "SOT-353 SC-70-5")
     (path /75E7489B)
@@ -12626,7 +12626,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-353_SC-70-5 (layer F.Cu) (tedit 5A02FF57) (tstamp 6699F5C9)
-    (at 146.179001 306.193001)
+    (at 224.79 162.56)
     (descr "SOT-353, SC-70-5")
     (tags "SOT-353 SC-70-5")
     (path /775136CA)
