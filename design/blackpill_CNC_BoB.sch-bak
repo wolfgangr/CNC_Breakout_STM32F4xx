@@ -2381,17 +2381,6 @@ Wire Wire Line
 	15400 3250 15400 4450
 Wire Wire Line
 	15400 4450 15450 4450
-$Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0199
-U 1 1 6CB28B07
-P 15600 2950
-F 0 "#PWR0199" H 15400 2800 50  0001 C CNN
-F 1 "Vdrive" H 15617 3123 50  0000 C CNN
-F 2 "" H 15600 2950 50  0001 C CNN
-F 3 "" H 15600 2950 50  0001 C CNN
-	1    15600 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15150 2950 15300 2950
 Wire Wire Line
@@ -2476,17 +2465,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 14800 7200 50
 F 3 "~" H 14800 7200 50  0001 C CNN
 	1    14800 7200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0197
-U 1 1 6CDC2DB1
-P 15400 6000
-F 0 "#PWR0197" H 15200 5850 50  0001 C CNN
-F 1 "Vdrive" V 15417 6173 50  0001 C CNN
-F 2 "" H 15400 6000 50  0001 C CNN
-F 3 "" H 15400 6000 50  0001 C CNN
-	1    15400 6000
-	0    1    -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0195
@@ -2578,8 +2556,6 @@ Connection ~ 14700 6200
 Wire Wire Line
 	15400 5600 14900 5600
 Wire Wire Line
-	15400 6000 15000 6000
-Wire Wire Line
 	15400 5800 15200 5800
 $Comp
 L Device:Jumper_NC_Small JP231
@@ -2606,8 +2582,6 @@ Text Label 15200 6300 0    50   ~ 0
 V_relais
 Wire Wire Line
 	14900 6200 14900 6300
-Wire Wire Line
-	15200 6300 14900 6300
 Connection ~ 14900 6300
 Wire Wire Line
 	14900 6300 14900 6500
@@ -2916,17 +2890,6 @@ Wire Wire Line
 	15400 850  15400 2050
 Wire Wire Line
 	15400 2050 15450 2050
-$Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0200
-U 1 1 6D77628E
-P 15800 700
-F 0 "#PWR0200" H 15600 550 50  0001 C CNN
-F 1 "Vdrive" H 15817 873 50  0000 C CNN
-F 2 "" H 15800 700 50  0001 C CNN
-F 3 "" H 15800 700 50  0001 C CNN
-	1    15800 700 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15150 550  15300 550 
 Wire Wire Line
@@ -2965,8 +2928,8 @@ $Comp
 L Connector:Screw_Terminal_01x04 J121
 U 1 1 6DCCD571
 P 15300 8000
-F 0 "J121" H 15400 8000 50  0000 L CNN
-F 1 "Spindle" H 15400 7900 50  0000 L CNN
+F 0 "J121" H 15400 7800 50  0000 L CNN
+F 1 "Spindle" H 15250 7700 50  0000 L CNN
 F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15300 8000 50  0001 C CNN
 F 3 "~" H 15300 8000 50  0001 C CNN
 	1    15300 8000
@@ -2983,12 +2946,8 @@ F 3 "~" H 15300 8700 50  0001 C CNN
 	1    15300 8700
 	1    0    0    -1  
 $EndComp
-Text Label 15400 7700 0    50   ~ 0
+Text Label 15150 7600 0    50   ~ 0
 V_relais
-Wire Wire Line
-	15400 7700 15000 7700
-Wire Wire Line
-	15000 7700 15000 7900
 Wire Wire Line
 	15000 8800 15100 8800
 Wire Wire Line
@@ -3000,7 +2959,6 @@ Wire Wire Line
 	15100 8100 15000 8100
 Wire Wire Line
 	15100 7900 15000 7900
-Connection ~ 15000 7900
 Wire Wire Line
 	15000 7900 15000 8100
 Wire Wire Line
@@ -4275,7 +4233,7 @@ U 1 1 729B23F0
 P 4000 10200
 F 0 "J112" H 4000 10000 50  0000 C CNN
 F 1 "5V Power out" V 4150 10150 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 4000 10200 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 4000 10200 50  0001 C CNN
 F 3 "~" H 4000 10200 50  0001 C CNN
 	1    4000 10200
 	1    0    0    1   
@@ -6359,16 +6317,16 @@ U 1 1 698AEEDC
 P 15750 6200
 F 0 "J128" H 15750 6000 50  0000 C CNN
 F 1 "Driver Power in/out" V 15900 6150 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 15750 6200 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 15750 6200 50  0001 C CNN
 F 3 "~" H 15750 6200 50  0001 C CNN
 	1    15750 6200
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0132
 U 1 1 69B50A4B
 P 15550 6200
-F 0 "#PWR?" H 15550 5950 50  0001 C CNN
+F 0 "#PWR0132" H 15550 5950 50  0001 C CNN
 F 1 "GND" H 15550 6050 50  0000 C CNN
 F 2 "" H 15550 6200 50  0001 C CNN
 F 3 "" H 15550 6200 50  0001 C CNN
@@ -6379,4 +6337,57 @@ Wire Wire Line
 	15550 6100 15000 6100
 Wire Wire Line
 	15000 6100 15000 6000
+Text Label 15800 700  0    50   ~ 0
+V_Drive
+Text Label 15600 2950 0    50   ~ 0
+V_Drive
+Text Label 15300 6000 0    50   ~ 0
+V_Drive
+Wire Wire Line
+	15300 6000 15000 6000
+$Comp
+L Connector:Screw_Terminal_01x02 J129
+U 1 1 69D0FE53
+P 15700 7850
+F 0 "J129" H 15700 7650 50  0000 C CNN
+F 1 "Relais Power in/out" V 15850 7800 50  0000 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 15700 7850 50  0001 C CNN
+F 3 "~" H 15700 7850 50  0001 C CNN
+	1    15700 7850
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 69D9433E
+P 16650 7800
+F 0 "#PWR0152" H 16650 7550 50  0001 C CNN
+F 1 "GND" H 16650 7650 50  0000 C CNN
+F 2 "" H 16650 7800 50  0001 C CNN
+F 3 "" H 16650 7800 50  0001 C CNN
+	1    16650 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 6300 15200 6300
+Wire Wire Line
+	15000 7900 15000 7750
+Wire Wire Line
+	15000 7600 15150 7600
+Connection ~ 15000 7900
+$Comp
+L power:GND #PWR0197
+U 1 1 69EC8147
+P 15500 7850
+F 0 "#PWR0197" H 15500 7600 50  0001 C CNN
+F 1 "GND" H 15500 7700 50  0001 C CNN
+F 2 "" H 15500 7850 50  0001 C CNN
+F 3 "" H 15500 7850 50  0001 C CNN
+	1    15500 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 7750 15000 7750
+Connection ~ 15000 7750
+Wire Wire Line
+	15000 7750 15000 7600
 $EndSCHEMATC

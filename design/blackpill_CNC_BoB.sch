@@ -2582,8 +2582,6 @@ Text Label 15200 6300 0    50   ~ 0
 V_relais
 Wire Wire Line
 	14900 6200 14900 6300
-Wire Wire Line
-	15200 6300 14900 6300
 Connection ~ 14900 6300
 Wire Wire Line
 	14900 6300 14900 6500
@@ -2930,8 +2928,8 @@ $Comp
 L Connector:Screw_Terminal_01x04 J121
 U 1 1 6DCCD571
 P 15300 8000
-F 0 "J121" H 15400 8000 50  0000 L CNN
-F 1 "Spindle" H 15400 7900 50  0000 L CNN
+F 0 "J121" H 15400 7800 50  0000 L CNN
+F 1 "Spindle" H 15250 7700 50  0000 L CNN
 F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15300 8000 50  0001 C CNN
 F 3 "~" H 15300 8000 50  0001 C CNN
 	1    15300 8000
@@ -2948,12 +2946,8 @@ F 3 "~" H 15300 8700 50  0001 C CNN
 	1    15300 8700
 	1    0    0    -1  
 $EndComp
-Text Label 15400 7700 0    50   ~ 0
+Text Label 15150 7600 0    50   ~ 0
 V_relais
-Wire Wire Line
-	15400 7700 15000 7700
-Wire Wire Line
-	15000 7700 15000 7900
 Wire Wire Line
 	15000 8800 15100 8800
 Wire Wire Line
@@ -2965,7 +2959,6 @@ Wire Wire Line
 	15100 8100 15000 8100
 Wire Wire Line
 	15100 7900 15000 7900
-Connection ~ 15000 7900
 Wire Wire Line
 	15000 7900 15000 8100
 Wire Wire Line
@@ -4240,7 +4233,7 @@ U 1 1 729B23F0
 P 4000 10200
 F 0 "J112" H 4000 10000 50  0000 C CNN
 F 1 "5V Power out" V 4150 10150 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 4000 10200 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 4000 10200 50  0001 C CNN
 F 3 "~" H 4000 10200 50  0001 C CNN
 	1    4000 10200
 	1    0    0    1   
@@ -6248,24 +6241,17 @@ Wire Wire Line
 	5100 10900 5100 10750
 Connection ~ 4850 10900
 Wire Wire Line
-	4800 9900 5100 9900
-Wire Wire Line
 	5400 9900 5400 9750
-Connection ~ 4800 9900
 Wire Wire Line
 	5100 9750 5100 9900
-Connection ~ 5100 9900
 Wire Wire Line
-	5100 9900 5400 9900
-Wire Wire Line
-	4800 9300 5100 9300
+	5100 9900 5250 9900
 Wire Wire Line
 	5400 9300 5400 9450
 Wire Wire Line
 	5100 9450 5100 9300
-Connection ~ 5100 9300
 Wire Wire Line
-	5100 9300 5400 9300
+	5100 9300 5250 9300
 $Comp
 L Device:Jumper_NC_Dual JP135
 U 1 1 6913274A
@@ -6324,7 +6310,7 @@ U 1 1 698AEEDC
 P 15750 6200
 F 0 "J128" H 15750 6000 50  0000 C CNN
 F 1 "Driver Power in/out" V 15900 6150 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 15750 6200 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 15750 6200 50  0001 C CNN
 F 3 "~" H 15750 6200 50  0001 C CNN
 	1    15750 6200
 	1    0    0    1   
@@ -6352,4 +6338,77 @@ Text Label 15300 6000 0    50   ~ 0
 V_Drive
 Wire Wire Line
 	15300 6000 15000 6000
+$Comp
+L Connector:Screw_Terminal_01x02 J129
+U 1 1 69D0FE53
+P 15700 7850
+F 0 "J129" H 15700 7650 50  0000 C CNN
+F 1 "Relais Power in/out" V 15850 7800 50  0000 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 15700 7850 50  0001 C CNN
+F 3 "~" H 15700 7850 50  0001 C CNN
+	1    15700 7850
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 69D9433E
+P 16650 7800
+F 0 "#PWR0152" H 16650 7550 50  0001 C CNN
+F 1 "GND" H 16650 7650 50  0000 C CNN
+F 2 "" H 16650 7800 50  0001 C CNN
+F 3 "" H 16650 7800 50  0001 C CNN
+	1    16650 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 6300 15200 6300
+Wire Wire Line
+	15000 7900 15000 7750
+Wire Wire Line
+	15000 7600 15150 7600
+Connection ~ 15000 7900
+$Comp
+L power:GND #PWR0197
+U 1 1 69EC8147
+P 15500 7850
+F 0 "#PWR0197" H 15500 7600 50  0001 C CNN
+F 1 "GND" H 15500 7700 50  0001 C CNN
+F 2 "" H 15500 7850 50  0001 C CNN
+F 3 "" H 15500 7850 50  0001 C CNN
+	1    15500 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 7750 15000 7750
+Connection ~ 15000 7750
+Wire Wire Line
+	15000 7750 15000 7600
+$Comp
+L power:GND #PWR?
+U 1 1 6A00AD7F
+P 5250 9900
+F 0 "#PWR?" H 5250 9650 50  0001 C CNN
+F 1 "GND" H 5300 9700 50  0001 C CNN
+F 2 "" H 5250 9900 50  0001 C CNN
+F 3 "" H 5250 9900 50  0001 C CNN
+	1    5250 9900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 9900
+Wire Wire Line
+	5250 9900 5400 9900
+$Comp
+L power:+5V #PWR?
+U 1 1 6A00BF5B
+P 5250 9300
+F 0 "#PWR?" H 5250 9150 50  0001 C CNN
+F 1 "+5V" H 5300 9500 50  0001 C CNN
+F 2 "" H 5250 9300 50  0001 C CNN
+F 3 "" H 5250 9300 50  0001 C CNN
+	1    5250 9300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5250 9300
+Wire Wire Line
+	5250 9300 5400 9300
 $EndSCHEMATC
