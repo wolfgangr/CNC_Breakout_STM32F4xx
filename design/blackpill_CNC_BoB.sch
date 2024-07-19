@@ -2381,17 +2381,6 @@ Wire Wire Line
 	15400 3250 15400 4450
 Wire Wire Line
 	15400 4450 15450 4450
-$Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0199
-U 1 1 6CB28B07
-P 15600 2950
-F 0 "#PWR0199" H 15400 2800 50  0001 C CNN
-F 1 "Vdrive" H 15617 3123 50  0000 C CNN
-F 2 "" H 15600 2950 50  0001 C CNN
-F 3 "" H 15600 2950 50  0001 C CNN
-	1    15600 2950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15150 2950 15300 2950
 Wire Wire Line
@@ -2476,17 +2465,6 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 14800 7200 50
 F 3 "~" H 14800 7200 50  0001 C CNN
 	1    14800 7200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0197
-U 1 1 6CDC2DB1
-P 15400 6000
-F 0 "#PWR0197" H 15200 5850 50  0001 C CNN
-F 1 "Vdrive" V 15417 6173 50  0001 C CNN
-F 2 "" H 15400 6000 50  0001 C CNN
-F 3 "" H 15400 6000 50  0001 C CNN
-	1    15400 6000
-	0    1    -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0195
@@ -2577,8 +2555,6 @@ Connection ~ 14700 6000
 Connection ~ 14700 6200
 Wire Wire Line
 	15400 5600 14900 5600
-Wire Wire Line
-	15400 6000 15000 6000
 Wire Wire Line
 	15400 5800 15200 5800
 $Comp
@@ -2916,17 +2892,6 @@ Wire Wire Line
 	15400 850  15400 2050
 Wire Wire Line
 	15400 2050 15450 2050
-$Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0200
-U 1 1 6D77628E
-P 15800 700
-F 0 "#PWR0200" H 15600 550 50  0001 C CNN
-F 1 "Vdrive" H 15817 873 50  0000 C CNN
-F 2 "" H 15800 700 50  0001 C CNN
-F 3 "" H 15800 700 50  0001 C CNN
-	1    15800 700 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15150 550  15300 550 
 Wire Wire Line
@@ -6354,74 +6319,37 @@ Wire Wire Line
 Wire Wire Line
 	6350 6950 6350 6750
 $Comp
-L Nucleo64-CNC-rescue:Vdrive-power #PWR0132
-U 1 1 698A2D21
-P 6950 8950
-F 0 "#PWR0132" H 6750 8800 50  0001 C CNN
-F 1 "Vdrive" H 6967 9123 50  0000 C CNN
-F 2 "" H 6950 8950 50  0001 C CNN
-F 3 "" H 6950 8950 50  0001 C CNN
-	1    6950 8950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J128
 U 1 1 698AEEDC
-P 7150 9300
-F 0 "J128" H 7150 9100 50  0000 C CNN
-F 1 "Driver Power in/out" V 7300 9250 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 7150 9300 50  0001 C CNN
-F 3 "~" H 7150 9300 50  0001 C CNN
-	1    7150 9300
+P 15750 6200
+F 0 "J128" H 15750 6000 50  0000 C CNN
+F 1 "Driver Power in/out" V 15900 6150 50  0000 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 15750 6200 50  0001 C CNN
+F 3 "~" H 15750 6200 50  0001 C CNN
+	1    15750 6200
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0152
-U 1 1 698B07EF
-P 6950 9300
-F 0 "#PWR0152" H 6950 9050 50  0001 C CNN
-F 1 "GND" H 7000 9100 50  0001 C CNN
-F 2 "" H 6950 9300 50  0001 C CNN
-F 3 "" H 6950 9300 50  0001 C CNN
-	1    6950 9300
+L power:GND #PWR0132
+U 1 1 69B50A4B
+P 15550 6200
+F 0 "#PWR0132" H 15550 5950 50  0001 C CNN
+F 1 "GND" H 15550 6050 50  0000 C CNN
+F 2 "" H 15550 6200 50  0001 C CNN
+F 3 "" H 15550 6200 50  0001 C CNN
+	1    15550 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Jumper_NC_Dual JP136
-U 1 1 698B1E24
-P 6750 9200
-F 0 "JP136" H 6750 9350 50  0000 L CNN
-F 1 "Jumper_NC_Dual" V 6750 9350 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6750 9200 50  0001 C CNN
-F 3 "~" H 6750 9200 50  0001 C CNN
-	1    6750 9200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR0203
-U 1 1 698C5FFC
-P 6750 9450
-F 0 "#PWR0203" H 6750 9300 50  0001 C CNN
-F 1 "+5V" V 6750 9650 50  0000 C CNN
-F 2 "" H 6750 9450 50  0001 C CNN
-F 3 "" H 6750 9450 50  0001 C CNN
-	1    6750 9450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+12V #PWR0204
-U 1 1 698CEBA8
-P 6750 8950
-F 0 "#PWR0204" H 6750 8800 50  0001 C CNN
-F 1 "+12V" V 6750 9200 50  0000 C CNN
-F 2 "" H 6750 8950 50  0001 C CNN
-F 3 "" H 6750 8950 50  0001 C CNN
-	1    6750 8950
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
-	6850 9200 6950 9200
+	15550 6100 15000 6100
 Wire Wire Line
-	6950 9200 6950 8950
-Connection ~ 6950 9200
+	15000 6100 15000 6000
+Text Label 15800 700  0    50   ~ 0
+V_Drive
+Text Label 15600 2950 0    50   ~ 0
+V_Drive
+Text Label 15300 6000 0    50   ~ 0
+V_Drive
+Wire Wire Line
+	15300 6000 15000 6000
 $EndSCHEMATC
