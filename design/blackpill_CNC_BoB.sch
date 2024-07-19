@@ -2038,7 +2038,7 @@ U 1 1 6B2BBB56
 P 15650 1000
 F 0 "J124" H 15750 1000 50  0000 L CNN
 F 1 "XStepDrv" H 15750 900 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15650 1000 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15650 1000 50  0001 C CNN
 F 3 "~" H 15650 1000 50  0001 C CNN
 	1    15650 1000
 	1    0    0    -1  
@@ -2049,7 +2049,7 @@ U 1 1 6B5A041D
 P 15650 2150
 F 0 "J125" H 15750 2150 50  0000 L CNN
 F 1 "YStepDrv" H 15750 2050 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15650 2150 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15650 2150 50  0001 C CNN
 F 3 "~" H 15650 2150 50  0001 C CNN
 	1    15650 2150
 	1    0    0    -1  
@@ -2060,7 +2060,7 @@ U 1 1 6B5CFE5F
 P 15650 3400
 F 0 "J126" H 15750 3400 50  0000 L CNN
 F 1 "ZStepDrv" H 15750 3300 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15650 3400 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15650 3400 50  0001 C CNN
 F 3 "~" H 15650 3400 50  0001 C CNN
 	1    15650 3400
 	1    0    0    -1  
@@ -2071,7 +2071,7 @@ U 1 1 6B5FF8AD
 P 15650 4550
 F 0 "J127" H 15750 4550 50  0000 L CNN
 F 1 "AStepDrv" H 15750 4450 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15650 4550 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15650 4550 50  0001 C CNN
 F 3 "~" H 15650 4550 50  0001 C CNN
 	1    15650 4550
 	1    0    0    -1  
@@ -2967,7 +2967,7 @@ U 1 1 6DCCD571
 P 15300 8000
 F 0 "J121" H 15400 8000 50  0000 L CNN
 F 1 "Spindle" H 15400 7900 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15300 8000 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15300 8000 50  0001 C CNN
 F 3 "~" H 15300 8000 50  0001 C CNN
 	1    15300 8000
 	1    0    0    -1  
@@ -2978,7 +2978,7 @@ U 1 1 6DCCD7CB
 P 15300 8700
 F 0 "J122" H 15400 8700 50  0000 L CNN
 F 1 "Coolant" H 15400 8600 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15300 8700 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15300 8700 50  0001 C CNN
 F 3 "~" H 15300 8700 50  0001 C CNN
 	1    15300 8700
 	1    0    0    -1  
@@ -3265,7 +3265,7 @@ U 1 1 6FBF74D8
 P 15300 9250
 F 0 "J123" H 15400 9250 50  0000 L CNN
 F 1 "AuxOut" H 15400 9150 50  0000 L CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 15300 9250 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 15300 9250 50  0001 C CNN
 F 3 "~" H 15300 9250 50  0001 C CNN
 	1    15300 9250
 	1    0    0    -1  
@@ -3362,7 +3362,7 @@ U 1 1 6FE76512
 P 11200 10550
 F 0 "J119" H 11150 10100 50  0000 C CNN
 F 1 "SpindleVFD" H 11150 10200 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal" H 11200 10550 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x4_P2.54mm_Vertical" H 11200 10550 50  0001 C CNN
 F 3 "~" H 11200 10550 50  0001 C CNN
 	1    11200 10550
 	1    0    0    1   
@@ -3749,7 +3749,7 @@ U 1 1 70D35A4D
 P 750 1600
 F 0 "J101" H 750 1400 50  0000 C CNN
 F 1 "ALimIN" V 850 1550 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 1600 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 1600 50  0001 C CNN
 F 3 "~" H 750 1600 50  0001 C CNN
 	1    750  1600
 	-1   0    0    1   
@@ -3760,7 +3760,7 @@ U 1 1 70DA1035
 P 750 2150
 F 0 "J102" H 750 1950 50  0000 C CNN
 F 1 "ZLimIN" V 850 2100 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 2150 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 2150 50  0001 C CNN
 F 3 "~" H 750 2150 50  0001 C CNN
 	1    750  2150
 	-1   0    0    1   
@@ -3771,7 +3771,7 @@ U 1 1 70DD634E
 P 750 2700
 F 0 "J103" H 750 2500 50  0000 C CNN
 F 1 "YLimIN" V 850 2650 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 2700 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 2700 50  0001 C CNN
 F 3 "~" H 750 2700 50  0001 C CNN
 	1    750  2700
 	-1   0    0    1   
@@ -3782,7 +3782,7 @@ U 1 1 70E0B669
 P 750 3300
 F 0 "J104" H 750 3100 50  0000 C CNN
 F 1 "XLimIN" V 850 3250 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 3300 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 3300 50  0001 C CNN
 F 3 "~" H 750 3300 50  0001 C CNN
 	1    750  3300
 	-1   0    0    1   
@@ -3858,7 +3858,7 @@ U 1 1 71294726
 P 750 4400
 F 0 "J105" H 750 4200 50  0000 C CNN
 F 1 "CS_IN" V 850 4350 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 4400 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 4400 50  0001 C CNN
 F 3 "~" H 750 4400 50  0001 C CNN
 	1    750  4400
 	-1   0    0    1   
@@ -3886,7 +3886,7 @@ U 1 1 712C7C6D
 P 750 4950
 F 0 "J106" H 750 4750 50  0000 C CNN
 F 1 "FH_IN" V 850 4900 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 4950 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 4950 50  0001 C CNN
 F 3 "~" H 750 4950 50  0001 C CNN
 	1    750  4950
 	-1   0    0    1   
@@ -3914,7 +3914,7 @@ U 1 1 712FC405
 P 750 5500
 F 0 "J107" H 750 5300 50  0000 C CNN
 F 1 "DoorIN" V 850 5450 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 5500 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 5500 50  0001 C CNN
 F 3 "~" H 750 5500 50  0001 C CNN
 	1    750  5500
 	-1   0    0    1   
@@ -3942,7 +3942,7 @@ U 1 1 71331E38
 P 750 6100
 F 0 "J108" H 750 5900 50  0000 C CNN
 F 1 "ResetIN" V 850 6050 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 6100 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 6100 50  0001 C CNN
 F 3 "~" H 750 6100 50  0001 C CNN
 	1    750  6100
 	-1   0    0    1   
@@ -3970,7 +3970,7 @@ U 1 1 7136B5E0
 P 750 6700
 F 0 "J109" H 750 6500 50  0000 C CNN
 F 1 "ProbeIN" V 850 6650 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 750 6700 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 750 6700 50  0001 C CNN
 F 3 "~" H 750 6700 50  0001 C CNN
 	1    750  6700
 	-1   0    0    1   
@@ -5059,7 +5059,7 @@ U 1 1 77351844
 P 4600 4450
 F 0 "J113" H 4600 4250 50  0000 C CNN
 F 1 "ADC_in_1" V 4700 4400 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 4600 4450 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 4600 4450 50  0001 C CNN
 F 3 "~" H 4600 4450 50  0001 C CNN
 	1    4600 4450
 	-1   0    0    1   
@@ -5653,7 +5653,7 @@ U 1 1 77513761
 P 4600 6450
 F 0 "J114" H 4600 6250 50  0000 C CNN
 F 1 "ADC_in_2" V 4700 6400 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G-5,08_1x02_P5.08mm_Horizontal" H 4600 6450 50  0001 C CNN
+F 2 "conn_my_kf128:ScrewTerminal_1x2_P2.54mm_Vertical" H 4600 6450 50  0001 C CNN
 F 3 "~" H 4600 6450 50  0001 C CNN
 	1    4600 6450
 	-1   0    0    1   

@@ -4,4 +4,6 @@
   (lib (name parts)(type KiCad)(uri ${KIPRJMOD}/parts)(options "")(descr "")(disabled))
   (lib (name snapEDA)(type KiCad)(uri ${KIPRJMOD}/parts/SnapEDA/Footprints.pretty)(options "")(descr "")(disabled))
   (lib (name WeAct_Black_Pill_V2.0)(type KiCad)(uri ${KIPRJMOD}/parts/kicad-lib-WeAct-Black-Pill-V2-main/WeAct_Black_Pill_V2.0.pretty)(options "")(descr "")(disabled))
+  (lib (name conn2_54lib)(type KiCad)(uri ${KIPRJMOD}/parts/kf128_conn/conn2_54lib)(options "")(descr "")(disabled))
+  (lib (name conn_my_kf128)(type KiCad)(uri ${KIPRJMOD}/parts/kf128_conn/mylib)(options "")(descr ""))
 )
