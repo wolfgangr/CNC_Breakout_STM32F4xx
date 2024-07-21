@@ -5,3 +5,6 @@ parts/*
 blackpill_CNC_BoB.bak
 .~lock*\#
 _autosave-*
+fab/
+gerber.zip
+
