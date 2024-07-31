@@ -16,7 +16,23 @@ current projects in mind:
 - lathe with spindle index for thread cutting
 - plasma cutter with auto-squared Y-axis and torch height control
 
-I selectet to fork this project because of the kicad file format.
+I selectet to fork Terje Io's project because of the kicad file format.
+
+In the end, most of the hardware was closer to
+https://github.com/phil-barrett/grblHAL-teensy-4.x
+- simply because this design was closer to what I had in mind.
+
+Please find updated information and discussion here at the github/grbl-HAL/core discussion area:
+[STM324X1 blackpill experimental versatile GRBL-breakout board](https://github.com/grblHAL/core/discussions/562)
+
+Project state as of July 2024:
+- first batch arrived from the fab
+- still yet untested
+
+CAVEAT - DISCLAIMER:
+Don't expect anything serious from the ideas, concepts and files delivered here.
+Expect the worst, like your house set under fire, your machine going bust or whatever evil you may think of.
+
 
 ======== End of fork remarks ===========
 
